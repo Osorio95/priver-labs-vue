@@ -2,7 +2,7 @@
 
   <header class="grid grid-cols-12 gap-4 m-auto my-6 mx-32">
     <div class="w-fit col-start-1 col-end-1">
-      <img src="../src/assets/imgs/Recurso 17 1.png" alt="">
+      <img src="./assets/imgs/Recurso 17 1.png" alt="">
     </div>
     <nav class="col-start-2 col-end-12 flex flex-row justify-evenly content-center items-center w-2/3 m-auto">
       <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">Nosotros</RouterLink>
