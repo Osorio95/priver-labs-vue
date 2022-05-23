@@ -2,31 +2,31 @@
 </script>
 
 <template>
-    <section class="relative flex flex-col justify-center" style="height:500px;">
-      <div class="grid grid-cols-12 gap-4">
+    <section class="relative lg:flex lg:flex-col lg:justify-center">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
         <div
           class="z-0 absolute top-12 -left-2 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
         </div>
-        <div class="z-10 col-span-6 h-full flex flex-col justify-center">
+        <div class="z-10 lg:col-span-6 h-full lg:flex lg:flex-col justify-center">
           <h1 class="my-4 w-fit font-semibold text-5xl">Transforma tu marca en un referente
             digital
           </h1>
-          <p class="my-4 w-2/3 text-sm">Centralizamos los mejores servicios
+          <p class="my-4 lg:w-2/3 text-sm">Centralizamos los mejores servicios
             digitales para lograr
             posicionar tu marca</p>
           <a class="my-4 w-fit px-3 py-2 text-center rounded-md bg-Secondary text-lg" href="#">Consultanos para
             más</a>
         </div>
-        <div class="col-span-6 flex justify-center">
+        <div class="lg:col-span-6 flex justify-center">
           <img class="h-fit" src="../assets/imgs/Hand 4 1.png" alt="hand using a smartphone">
         </div>
       </div>
     </section>
 
-    <section class="grid grid-cols-12 gap-4 overflow-hidden">
-      <div class="col-start-4 col-end-10 text-center">
+    <section class="lg:grid lg:grid-cols-12 gap-4 lg:overflow-hidden">
+      <div class="lg:col-start-4 lg:col-end-10 text-center">
         <div class="h-72 flex flex-col justify-center">
-          <h2 class="text-3xl font-semibold md:text-5xl">
+          <h2 class="text-3xl font-semibold lg:text-5xl">
             Quienes somos
           </h2>
           <p class="mt-2 text-sm">
@@ -36,9 +36,9 @@
           </p>
         </div>
       </div>
-      <div class="col-start-2 col-end-11">
+      <div class="lg:col-start-2 lg:col-end-11">
         <div class="grid grid-cols-2 justify-items-stretch my-16">
-          <div class="w-64 h-64">
+          <div class="lg:w-64 lg:h-64 flex flex-col justify-center">
             <img src="../assets/imgs/Rectangle 1.png" alt="">
           </div>
           <div class="flex flex-col justify-center">
@@ -62,12 +62,12 @@
               el público objetivo ofreciendo un visión holística necesaria basado en el marketing digital.
             </p>
           </div>
-          <div class="w-64 h-64 place-self-end">
+          <div class="lg:w-64 lg:h-64 place-self-end flex flex-col justify-center">
             <img src="../assets/imgs/Rectangle 2.png" alt="">
           </div>
         </div>
         <div class="grid grid-cols-2 justify-items-stretch my-16">
-          <div class="w-64 h-64">
+          <div class="lg:w-64 lg:h-64 flex flex-col justify-center">
             <img src="../assets/imgs/Rectangle 3.png" alt="">
           </div>
           <div class="flex flex-col justify-center">
@@ -85,15 +85,15 @@
 
     </section>
 
-    <section class="grid grid-cols-12 gap-4 mb-24">
-      <div class="col-start-1 col-span-6 grid grid-cols-6 gap-4">
-        <h6 class="col-start-1 col-span-full text-lg">
+    <section class="lg:grid lg:grid-cols-12 lg:gap-4 mb-24">
+      <div class="lg:col-start-1 lg:col-span-6 lg:grid lg:grid-cols-6 lg:gap-4">
+        <h6 class="lg:col-start-1 lg:col-span-full text-lg">
           ¿Quieres conocer más?
         </h6>
-        <h2 class="col-start-1 col-span-full text-4xl font-semibold">
+        <h2 class="lg:col-start-1 lg:col-span-full text-4xl font-semibold">
           Contáctanos
         </h2>
-        <p class="col-start-2 col-span-full">
+        <p class="lg:col-start-2 lg:col-span-full">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua.
           <br>
@@ -109,7 +109,7 @@
         </p>
       </div>
 
-      <div class="col-start-7 col-span-6 grid">
+      <div class="lg:col-start-7 lg:col-span-6 grid lg:mt-auto mt-6">
         <input class="px-2 py-1 text-DarkA my-2 rounded-md" placeholder="Nombre" type="text" name="" id="">
         <input class="px-2 py-1 text-DarkA my-2 rounded-md" placeholder="E-mail" type="email" name="" id="">
         <input class="px-2 py-1 text-DarkA my-2 rounded-md" placeholder="Móvil" type="tel" name="" id="">

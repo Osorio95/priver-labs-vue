@@ -1,17 +1,17 @@
 <template>
 
-  <header class="grid grid-cols-12 gap-4 m-auto my-6 mx-32">
+  <header class="grid grid-cols-4 lg:grid-cols-12 lg:gap-4 m-auto my-6 lg:mx-32 mx-6">
     <div class="w-fit col-start-1 col-end-1">
-      <img src="./assets/imgs/Recurso 17 1.png" alt="">
+      <img class="h-8 lg:h-max" src="./assets/imgs/Recurso 17 1.png" alt="">
     </div>
-    <nav class="col-start-2 col-end-12 flex flex-row justify-evenly content-center items-center w-2/3 m-auto">
+    <nav class="col-start-2 col-span-3 lg:col-start-2 lg:col-end-12 lg:place-self-center flex flex-row justify-evenly content-center items-center lg:w-3/4 w-full">
       <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">Nosotros</RouterLink>
       <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/products">Productos</RouterLink>
       <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/projects">Proyectos</RouterLink>
     </nav>
   </header>
 
-  <main class="relative mx-32">
+  <main class="relative lg:mx-32 mx-6">
     <RouterView />
   </main>
 
@@ -30,7 +30,7 @@
 </template>
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import TheFooterVue from './components/icons/layout/TheFooter.vue';
+import TheFooterVue from './components/layout/TheFooter.vue';
 
 export default {
   components: {
