@@ -18,7 +18,7 @@
             más</a>
         </div>
         <div class="lg:col-span-6 flex justify-center">
-          <img class="h-fit" src="../assets/imgs/Hand 4 1.png" alt="hand using a smartphone">
+          <img class="h-fit" src="../assets/imgs/Hand_4_1.png" alt="hand using a smartphone">
         </div>
       </div>
     </section>
@@ -39,7 +39,7 @@
       <div class="lg:col-start-2 lg:col-end-11">
         <div class="grid grid-cols-2 justify-items-stretch my-16">
           <div class="lg:w-64 lg:h-64 flex flex-col justify-center">
-            <img src="../assets/imgs/Rectangle 1.png" alt="">
+            <img src="../assets/imgs/Rectangle_1.png" alt="">
           </div>
           <div class="flex flex-col justify-center">
             <h4 class="text-4xl text-left">
@@ -63,12 +63,12 @@
             </p>
           </div>
           <div class="lg:w-64 lg:h-64 place-self-end flex flex-col justify-center">
-            <img src="../assets/imgs/Rectangle 2.png" alt="">
+            <img src="../assets/imgs/Rectangle_2.png" alt="">
           </div>
         </div>
         <div class="grid grid-cols-2 justify-items-stretch my-16">
           <div class="lg:w-64 lg:h-64 flex flex-col justify-center">
-            <img src="../assets/imgs/Rectangle 3.png" alt="">
+            <img src="../assets/imgs/Rectangle_3.png" alt="">
           </div>
           <div class="flex flex-col justify-center">
             <h4 class="text-4xl text-left">

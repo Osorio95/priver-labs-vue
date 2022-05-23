@@ -3,7 +3,7 @@
         <div class="lg:mx-32 mx-6">
             <div class="grid grid-cols-2">
                 <div class="lg:grid lg:grid-cols-6">
-                    <img class="col-start-2 col-span-full w-64 h-auto" src="../../assets/imgs/Recurso 18 1.png" alt="">
+                    <img class="col-start-2 col-span-full w-64 h-auto" src="../../assets/imgs/Recurso_18_1.png" alt="">
                 </div>
                 <div class="lg:grid lg:grid-cols-6">
                     <div class="col-span-5 flex flex-col items-end justify-evenly">
