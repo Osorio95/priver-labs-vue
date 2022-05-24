@@ -39,9 +39,9 @@
       </div>
     </div>
     <div class="lg:col-start-2 lg:col-end-11">
-      <div class="lg:grid lg:grid-cols-2 justify-items-stretch my-16">
-        <div class="lg:h-[541] w-auto flex flex-col justify-center">
-          <img src="../assets/imgs/Rectangle_1.png" alt="">
+      <div class="lg:grid lg:grid-cols-2 justify-items-stretch flex flex-col items-center my-16">
+        <div class="w-2/3 lg:w-full flex flex-col justify-center">
+          <img class="object-contain" src="../assets/imgs/Rectangle_1.png" alt="a computer with graphs in the screen">
         </div>
         <div class="flex flex-col justify-center">
           <h4 class="text-6xl lg:text-left">
@@ -54,9 +54,9 @@
           </p>
         </div>
       </div>
-      <div class="lg:grid lg:grid-cols-2 justify-items-stretch my-16">
-        <div class="lg:hidden lg:h-[541] w-auto place-self-end flex flex-col justify-center">
-          <img src="../assets/imgs/Rectangle_2.png" alt="">
+      <div class="lg:grid lg:grid-cols-2 justify-items-stretch flex flex-col items-center my-16">
+        <div class="lg:hidden w-2/3 flex flex-col justify-center">
+          <img class="object-contain" src="../assets/imgs/Rectangle_2.png" alt="">
         </div>
         <div class="flex flex-col justify-center">
           <h4 class="text-6xl lg:text-left">
@@ -67,13 +67,13 @@
             el público objetivo ofreciendo un visión holística necesaria basado en el marketing digital.
           </p>
         </div>
-        <div class="hidden lg:h-[541] w-auto place-self-end lg:flex flex-col justify-center">
-          <img src="../assets/imgs/Rectangle_2.png" alt="">
+        <div class="hidden lg:h-[541] w-auto place-self-end lg:flex flex-col items-center justify-center">
+          <img class="object-contain" src="../assets/imgs/Rectangle_2.png" alt="">
         </div>
       </div>
-      <div class="lg:grid lg:grid-cols-2 lg:justify-items-stretch my-16">
-        <div class="lg:h-[541] w-auto flex flex-col justify-center">
-          <img src="../assets/imgs/Rectangle_3.png" alt="">
+      <div class="lg:grid lg:grid-cols-2 lg:justify-items-stretch flex flex-col items-center my-16">
+        <div class="w-2/3 lg:w-full flex flex-col justify-center">
+          <img class="object-contain" src="../assets/imgs/Rectangle_3.png" alt="">
         </div>
         <div class="flex flex-col justify-center">
           <h4 class="text-6xl lg:text-left">
