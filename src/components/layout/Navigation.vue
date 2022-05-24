@@ -23,7 +23,7 @@
                 <img src="../../assets/imgs/icon/menu-4-64.png" @click="toggleMobileNav" v-show="mobile" class="bars w-full h-full"
                     :class="{ 'icon-active': mobileNav }"/>
                 <transition name="mobile-nav">
-                    <ul class="absolute top-16 right-0 z-10 bg-DarkB flex flex-col justify-evenly py-1 px-8"
+                    <ul class="absolute top-16 text-md right-0 z-10 bg-DarkB flex flex-col justify-evenly py-1 px-8"
                         v-show="mobileNav">
                         <li class="my-4">
                             <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">
@@ -87,12 +87,12 @@ export default {
 <style>
 .icon-active {
     transform: rotate(180deg);
-    transition: 1s ease all;
+    transition: 0.5s ease all;
 }
 
 .mobile-nav-enter-active,
 .mobile-nav-leave-active {
-    transition: 1s ease all;
+    transition: 0.5s ease all;
 }
 
 .mobile-nav-enter-from,

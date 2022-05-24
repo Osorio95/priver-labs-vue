@@ -31,7 +31,7 @@
         <h2 class="font-bold text-6xl mb-4">
           Quienes somos
         </h2>
-        <p class="mt-2 text-2xl lg:text-3xl">
+        <p class="mt-2 text-xl lg:text-3xl">
           Somos un equipo con perfiles multidisciplinario de mucha trayectoria, dedicados al desarrollo, diseño y
           comunicación de marcas con un amplio catálogo de servicios centrados en resolver cualquier necesidad que
           pueda demandar y trabajo en equipo y bajo una misma metodología: adaptarte a la era digital.
@@ -47,7 +47,7 @@
           <h4 class="text-6xl lg:text-left">
             Desarrollo
           </h4>
-          <p class="lg:text-left my-4 text-2xl">
+          <p class="lg:text-left my-4 text-xl">
             Construimos aplicaciones web que se caracterizan por su profundidad, versatilidad y facilidad para ser
             visualizadas en cualquier dispositivo. Manteniendo como objetivo al usuario y la experiencia cautivante
             que deseamos proveer.
@@ -62,7 +62,7 @@
           <h4 class="text-6xl lg:text-left">
             Marketing
           </h4>
-          <p class="lg:text-left my-4 text-2xl">
+          <p class="lg:text-left my-4 text-xl">
             Cumplimos los objetivos de nuestros clientes en idea de negocios a partir de estratégias creativas para
             el público objetivo ofreciendo un visión holística necesaria basado en el marketing digital.
           </p>
@@ -79,7 +79,7 @@
           <h4 class="text-6xl lg:text-left">
             Diseño gráfico
           </h4>
-          <p class="lg:text-left my-4 text-2xl">
+          <p class="lg:text-left my-4 text-xl">
             Proyectamos soluciones alternativas para impactar a tus clientes con un enfoque nuevo y original.
             Disponemos de múltiples servicios de diseño relacionados a tus necesidades y logramos que el mundo vea
             la mejor versión de tu marca.
@@ -97,7 +97,7 @@
       <h2 class="lg:col-start-1 lg:col-span-full text-6xl font-bold my-4">
         Contáctanos
       </h2>
-      <p class="lg:col-start-2 lg:col-span-full text-2xl my-4">
+      <p class="lg:col-start-2 lg:col-span-full text-xl my-4">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua.
         <br>
