@@ -3,7 +3,7 @@
 
 <template>
   <section id="header" class="relative lg:flex lg:flex-col lg:justify-center -z-30">
-    <div class="flex flex-col lg:grid lg:grid-cols-12 gap-4 my-24">
+    <div class="flex flex-col lg:grid lg:grid-cols-12 gap-4 mt-6 mb-16">
       <div
         class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
       </div>
@@ -11,10 +11,10 @@
         <h1 class="my-4 w-fit font-semibold lg:text-7xl text-4xl mr-6">Transforma tu marca en un referente
           digital
         </h1>
-        <p class="my-4 lg:w-2/3 font-normal text-3xl">Centralizamos los mejores servicios
+        <p class="my-4 font-normal text-3xl">Centralizamos los mejores servicios
           digitales para lograr
           posicionar tu marca</p>
-        <a class="my-4 w-fit lg:px-8 lg:py-4 px-3 py-2 text-center rounded-md bg-Secondary lg:text-3xl text-lg font-bold"
+        <a class="my-4 w-fit lg:px-8 lg:py-2 px-3 py-2 text-center rounded-lg bg-Secondary lg:text-3xl text-lg font-bold"
           href="#contact">Consultanos para
           más</a>
       </div>

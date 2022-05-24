@@ -1,6 +1,6 @@
 <template>
 
-    <header class="pt-8 pb-2 lg:mx-32 mx-6 bg-Primary">
+    <header class="pt-4 pb-2 lg:mx-32 mx-6 bg-Primary">
         <nav class="text-2xl grid grid-cols-12 justify-items-stretch z-50">
             <div class="col-start-1 col-span-2">
                 <img class="h-auto w-full lg:h-max lg:w-auto" src="../../assets/imgs/Recurso_17_1.png" alt="">
