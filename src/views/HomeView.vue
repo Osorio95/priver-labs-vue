@@ -5,16 +5,16 @@
     <section class="relative lg:flex lg:flex-col lg:justify-center">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
         <div
-          class="z-0 absolute top-12 -left-2 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
+          class="-z-10 absolute top-12 -left-2 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
         </div>
         <div class="z-10 lg:col-span-6 h-full lg:flex lg:flex-col justify-center">
-          <h1 class="my-4 w-fit font-semibold text-5xl">Transforma tu marca en un referente
+          <h1 class="my-2 w-fit font-semibold text-5xl mr-6">Transforma tu marca en un referente
             digital
           </h1>
-          <p class="my-4 lg:w-2/3 text-sm">Centralizamos los mejores servicios
+          <p class="my-2 lg:w-2/3 text-sm">Centralizamos los mejores servicios
             digitales para lograr
             posicionar tu marca</p>
-          <a class="my-4 w-fit px-3 py-2 text-center rounded-md bg-Secondary text-lg" href="#">Consultanos para
+          <a class="my-2 w-fit px-3 py-2 text-center rounded-md bg-Secondary text-lg" href="#">Consultanos para
             más</a>
         </div>
         <div class="lg:col-span-6 flex justify-center">
