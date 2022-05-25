@@ -20,8 +20,8 @@
                 </li>
             </ul>
             <div class="col-start-12 relative flex flex-row justify-evenly items-center">
-                <img src="../../assets/imgs/icon/menu-4-64.png" @click="toggleMobileNav" v-show="mobile" class="bars w-full h-full"
-                    :class="{ 'icon-active': mobileNav }"/>
+                <img src="../../assets/imgs/icon/menu-4-64.png" @click="toggleMobileNav"
+                    v-show="mobile" class="cursor-pointer bars w-full h-full" :class="{ 'icon-active': mobileNav }" />
                 <transition name="mobile-nav">
                     <ul class="absolute top-16 text-md right-0 z-10 bg-DarkB flex flex-col justify-evenly py-1 px-8"
                         v-show="mobileNav">

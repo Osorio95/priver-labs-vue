@@ -14,7 +14,7 @@
         <p class="my-4 font-normal text-3xl">Centralizamos los mejores servicios
           digitales para lograr
           posicionar tu marca</p>
-        <a class="my-4 w-fit lg:px-8 lg:py-2 px-3 py-2 text-center rounded-lg bg-Secondary lg:text-3xl text-lg font-bold"
+        <a class="lg:my-4 my-8 w-fit lg:px-8 lg:py-2 px-3 py-2 text-center rounded-lg bg-Secondary lg:text-3xl text-xl font-bold"
           href="#contact">Consultanos para
           más</a>
       </div>
@@ -38,8 +38,8 @@
         </p>
       </div>
     </div>
-    <div class="lg:col-start-2 lg:col-end-11">
-      <div class="lg:grid lg:grid-cols-2 justify-items-stretch flex flex-col items-center my-16">
+    <div class="lg:col-start-2 lg:col-end-12">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
         <div class="w-2/3 lg:w-full flex flex-col justify-center">
           <img class="object-contain" src="../assets/imgs/Rectangle_1.png" alt="a computer with graphs in the screen">
         </div>
@@ -54,7 +54,7 @@
           </p>
         </div>
       </div>
-      <div class="lg:grid lg:grid-cols-2 justify-items-stretch flex flex-col items-center my-16">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
         <div class="lg:hidden w-2/3 flex flex-col justify-center">
           <img class="object-contain" src="../assets/imgs/Rectangle_2.png" alt="">
         </div>
@@ -71,7 +71,7 @@
           <img class="object-contain" src="../assets/imgs/Rectangle_2.png" alt="">
         </div>
       </div>
-      <div class="lg:grid lg:grid-cols-2 lg:justify-items-stretch flex flex-col items-center my-16">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
         <div class="w-2/3 lg:w-full flex flex-col justify-center">
           <img class="object-contain" src="../assets/imgs/Rectangle_3.png" alt="">
         </div>
@@ -97,20 +97,25 @@
       <h2 class="lg:col-start-1 lg:col-span-full text-6xl font-bold my-4">
         Contáctanos
       </h2>
-      <p class="lg:col-start-2 lg:col-span-full text-xl my-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-        <br>
-        <br>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        <br>
-        <br>
-        Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-        esse cillum dolore eu fugiat nulla pariatur.
-        <br>
-        <br>
-        Excepteur sint occaecat cupidatat non proident,
-      </p>
+      <div class="lg:col-start-2 lg:col-span-full text-xl mb-12">
+        <p>
+          Priver Labs tiene una solución creativa ajustada a tu contexto.
+          <br>
+          <br>
+          Puedes contactarno de la forma que prefieras: puedes dejarnos tu requerimiento en el formulario anexo o
+          contactarnos a traves de los siguientes canales. 
+        </p>
+        <ul class="mt-4">
+          <li>
+            Correo: <a class="text-Secondary hover:text-TertiaryB transition-all"
+              href="mailto:su@priver.app">su@priver.app</a>
+          </li>
+          <li>
+            Teléfono: <a class="text-Secondary hover:text-TertiaryB transition-all"
+              href="https://api.whatsapp.com/send?phone=584127560838">+58 412-7560838</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div class="lg:col-start-7 lg:col-span-6 lg:grid flex flex-col lg:mt-auto mt-6 text-2xl">

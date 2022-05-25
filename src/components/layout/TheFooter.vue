@@ -3,14 +3,30 @@
         <div class="lg:mx-32 mx-6">
             <div class="lg:grid lg:grid-cols-2 flex flex-col">
                 <div class="lg:grid lg:grid-cols-6 flex justify-center">
-                    <img class="lg:col-start-2 lg:col-span-full lg:h-[82px] h-12 w-auto" src="../../assets/imgs/Recurso_18_1.png" alt="">
+                    <img class="lg:col-start-2 lg:col-span-full lg:h-[82px] h-12 w-auto"
+                        src="../../assets/imgs/Recurso_18_1.png" alt="">
                 </div>
                 <div class="lg:grid lg:grid-cols-6">
                     <div class="lg:col-span-5 flex flex-col lg:items-end lg:justify-evenly justify-center">
-                        <nav class="hidden lg:flex text-2xl flex-row justify-between content-center items-center w-2/3">
-                            <RouterLink class="h-fit" to="/">Nosotros</RouterLink>
-                            <RouterLink class="h-fit" to="/products">Productos</RouterLink>
-                            <RouterLink class="h-fit" to="/projects">Proyectos</RouterLink>
+                        <nav class="hidden lg:flex text-2xl flex-row justify-between content-center items-center w-full">
+                            <ul class="flex flex-row justify-between items-center w-full"
+                                v-show="!mobile">
+                                <li>
+                                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">
+                                        Nosotros
+                                    </RouterLink>
+                                </li>
+                                <li>
+                                    <RouterLink class="h-fit hover:text-GreyD transition-colors ease-in-out" to="/">
+                                        Productos
+                                    </RouterLink>
+                                </li>
+                                <li>
+                                    <RouterLink class="h-fit hover:text-GreyD transition-colors ease-in-out" to="/">
+                                        Proyectos
+                                    </RouterLink>
+                                </li>
+                            </ul>
                         </nav>
                         <ul class="flex flex-row mt-8 justify-around">
                             <li class="ml-2">
@@ -49,14 +65,8 @@
                 </div>
             </div>
             <div class="grid grid-cols-12 mt-16">
-                <p class="col-start-2 col-span-10 text-base mt-6 text-center">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing
-                    elit, sed do eiusmod
-                    tempor
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea </p>
+                <p class="col-start-2 col-span-10 text-base mt-6 text-center">Copyright &copy; 2022 Grupo Priver, C.A.
+                    Todos los derechos reservados.</p>
             </div>
         </div>
 
