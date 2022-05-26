@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <section id="header" class="relative lg:flex lg:flex-col lg:justify-center -z-30">
+  <section id="header" class="relative lg:flex lg:flex-col lg:justify-center">
     <div class="flex flex-col lg:grid lg:grid-cols-12 gap-4 mt-6 mb-16">
       <div
         class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
