@@ -3,17 +3,17 @@
 
 <template>
   <section id="header" class="relative lg:flex lg:flex-col lg:justify-center">
-    <div class="flex flex-col lg:grid lg:grid-cols-12 gap-4 mt-6 mb-16">
+    <div class="flex flex-col lg:grid lg:grid-cols-12 gap-4 xl:mt-6 xl:mb-16">
       <div
         class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
       </div>
       <div class="lg:col-span-6 h-full lg:flex lg:flex-col justify-center">
-        <h1 class="my-4 w-fit font-semibold lg:text-7xl text-4xl mr-6">Transforma tu marca en un referente
+        <h1 class="my-4 w-fit font-semibold lg:text-5xl text-4xl mr-6">Transforma tu marca en un referente
           digital
         </h1>
-        <p class="my-4 font-normal text-3xl">Centralizamos los mejores servicios
-          digitales para lograr
-          posicionar tu marca</p>
+        <p class="my-4 font-normal text-2xl">
+          Centralizamos los mejores servicios digitales para lograr posicionar tu marca
+        </p>
         <a class="lg:my-4 my-8 w-fit lg:px-8 lg:py-2 px-3 py-2 text-center rounded-lg bg-Secondary lg:text-3xl text-xl font-bold"
           href="#contact">Consultanos para
           más</a>
@@ -26,9 +26,9 @@
   </section>
 
   <section id="services" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden mx-8 lg:mx-0 text-center">
-    <div class="lg:col-start-4 lg:col-end-10 text-center">
+    <div class="lg:col-start-2 lg:col-end-12 text-center">
       <div class="lg:my-6 flex flex-col justify-center">
-        <h2 class="font-bold text-6xl mb-4">
+        <h2 class="font-bold text-5xl mb-4">
           Quienes somos
         </h2>
         <p class="mt-2 text-xl lg:text-3xl">
@@ -40,11 +40,11 @@
     </div>
     <div class="lg:col-start-2 lg:col-end-12">
       <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
-        <div class="w-2/3 lg:w-full flex flex-col justify-center">
+        <div class="w-2/5 lg:w-full flex flex-col justify-center">
           <img class="object-contain" src="../assets/imgs/Rectangle_1.png" alt="a computer with graphs in the screen">
         </div>
         <div class="flex flex-col justify-center">
-          <h4 class="text-6xl lg:text-left">
+          <h4 class="text-5xl lg:text-left">
             Desarrollo
           </h4>
           <p class="lg:text-left my-4 text-xl">
@@ -55,11 +55,11 @@
         </div>
       </div>
       <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
-        <div class="lg:hidden w-2/3 flex flex-col justify-center">
+        <div class="lg:hidden w-2/5 flex flex-col justify-center">
           <img class="object-contain" src="../assets/imgs/Rectangle_2.png" alt="">
         </div>
         <div class="flex flex-col justify-center">
-          <h4 class="text-6xl lg:text-left">
+          <h4 class="text-5xl lg:text-left">
             Marketing
           </h4>
           <p class="lg:text-left my-4 text-xl">
@@ -72,11 +72,11 @@
         </div>
       </div>
       <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
-        <div class="w-2/3 lg:w-full flex flex-col justify-center">
+        <div class="w-2/5 lg:w-full flex flex-col justify-center">
           <img class="object-contain" src="../assets/imgs/Rectangle_3.png" alt="">
         </div>
         <div class="flex flex-col justify-center">
-          <h4 class="text-6xl lg:text-left">
+          <h4 class="text-5xl lg:text-left">
             Diseño gráfico
           </h4>
           <p class="lg:text-left my-4 text-xl">
@@ -108,11 +108,12 @@
         <ul class="mt-4">
           <li>
             Correo: <a class="text-Secondary hover:text-TertiaryB transition-all"
-              href="mailto:su@priver.app">su@priver.app</a>
+              href="mailto:grupo@priver.app">grupo@priver.app</a>
           </li>
           <li>
             Teléfono: <a class="text-Secondary hover:text-TertiaryB transition-all"
-              href="https://api.whatsapp.com/send?phone=584127560838">+58 412-7560838</a>
+              href="https://api.whatsapp.com/send?phone=584127560838">+58 412-7560838
+            </a>
           </li>
         </ul>
       </div>

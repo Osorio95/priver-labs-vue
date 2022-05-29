@@ -34,20 +34,19 @@
                                     <img class="w-10" src="../../assets/imgs/icon/facebook.png"
                                         alt="social icon, link to our facebook">
                                 </a>
-
                             </li>
-                            <li class="ml-2">
+                            <!-- <li class="ml-2">
                                 <a target="_blank" href="#">
                                     <img class="w-10" src="../../assets/imgs/icon/telegram.png"
                                         alt="social icon, link to our telegram">
                                 </a>
-                            </li>
-                            <li class="ml-2">
+                            </li> -->
+                            <!-- <li class="ml-2">
                                 <a target="_blank" href="#">
                                     <img class="w-10" src="../../assets/imgs/icon/twitter.png"
                                         alt="social icon, link to our twitter">
                                 </a>
-                            </li>
+                            </li> -->
                             <li class="ml-2">
                                 <a target="_blank" href="https://www.instagram.com/priver.app/">
                                     <img class="w-10" src="../../assets/imgs/icon/instagram.png"
@@ -55,7 +54,7 @@
                                 </a>
                             </li>
                             <li class="ml-2">
-                                <a href="#">
+                                <a href="https://api.whatsapp.com/send?phone=584127560838">
                                     <img class="w-10" src="../../assets/imgs/icon/whatsapp.png"
                                         alt="social icon, link to our whatsapp">
                                 </a>
@@ -65,7 +64,7 @@
                 </div>
             </div>
             <div class="grid grid-cols-12 mt-16">
-                <p class="col-start-2 col-span-10 text-base mt-6 text-center">Copyright &copy; 2022 Grupo Priver, C.A.
+                <p class="col-start-2 col-span-10 text-base mt-6 text-center">Copyright &copy; {{copyrightYear}} Grupo Priver, C.A.
                     Todos los derechos reservados.</p>
             </div>
         </div>
@@ -77,7 +76,12 @@
 import { RouterLink, RouterView } from 'vue-router'
 
 export default {
-    name: 'TheFooter'
+    name: 'TheFooter',
+    computed: {
+        copyrightYear: () => {
+            return (new Date(Date.now())).getFullYear()
+        }
+    },
 }
 </script>
 
