@@ -5,11 +5,12 @@
         class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
       </div>
       <div class="lg:col-span-6 h-full lg:flex lg:flex-col justify-center">
-        <h1 class="my-4 w-fit font-semibold lg:text-5xl text-4xl mr-6">Transforma tu marca en un referente
-          digital
+        <h1 class="my-4 w-fit font-semibold lg:text-5xl text-4xl mr-6">
+          ¡Transformamos tu marca en un referente digital!
         </h1>
         <p class="my-4 font-normal text-2xl">
-          Centralizamos los mejores servicios digitales para lograr posicionar tu marca
+          Tenemos a tu disposición el mejor equipo y principales servicios de excelente calidad para que potencies y
+          posiciones tu marca.
         </p>
         <a class="lg:my-4 my-8 w-fit lg:px-8 lg:py-2 px-3 py-2 text-center rounded-lg bg-Secondary lg:text-3xl text-xl font-bold"
           href="#contact">Consultanos para
@@ -29,9 +30,10 @@
           Quienes somos
         </h2>
         <p class="mt-2 text-xl lg:text-3xl">
-          Somos un equipo con perfiles multidisciplinario de mucha trayectoria, dedicados al desarrollo, diseño y
-          comunicación de marcas con un amplio catálogo de servicios centrados en resolver cualquier necesidad que
-          pueda demandar y trabajo en equipo y bajo una misma metodología: adaptarte a la era digital.
+          Somos un team de talentos multidisciplinarios, con trayectoria y experiencia suficiente para hacerte crecer en
+          el entorno digital. Nos especializamos en el desarrollo, diseño y comunicación de marcas con un amplio abanico
+          de opciones, diseñados para satisfacer cualquier demanda de nuestros clientes, con el objetivo principal de:
+          ADAPTARNOS A LA ERA DIGITAL.
         </p>
       </div>
     </div>
@@ -45,9 +47,9 @@
             Desarrollo
           </h4>
           <p class="lg:text-left my-4 text-xl">
-            Construimos aplicaciones web que se caracterizan por su profundidad, versatilidad y facilidad para ser
-            visualizadas en cualquier dispositivo. Manteniendo como objetivo al usuario y la experiencia cautivante
-            que deseamos proveer.
+            Construimos aplicativos web que se caracterizan por su profundidad, versatilidad y capacidad de adaptación
+            visual en cualquier dispositivo. Logrando así, que el usuario pueda tener una experiencia cautivadora y
+            satisfactoria en el servicio que proveemos.
           </p>
         </div>
       </div>
@@ -60,8 +62,8 @@
             Marketing
           </h4>
           <p class="lg:text-left my-4 text-xl">
-            Cumplimos los objetivos de nuestros clientes en idea de negocios a partir de estratégias creativas para
-            el público objetivo ofreciendo un visión holística necesaria basado en el marketing digital.
+            Tenemos el equilibrio perfecto entre el marketing tradicional y marketing digital, creando las estrategias
+            necesarias para que nuestros clientes siempre estén a la vanguardia
           </p>
         </div>
         <div class="hidden lg:h-[541] w-auto place-self-end lg:flex flex-col items-center justify-center">
@@ -77,9 +79,9 @@
             Diseño gráfico
           </h4>
           <p class="lg:text-left my-4 text-xl">
-            Proyectamos soluciones alternativas para impactar a tus clientes con un enfoque nuevo y original.
-            Disponemos de múltiples servicios de diseño relacionados a tus necesidades y logramos que el mundo vea
-            la mejor versión de tu marca.
+            proyectamos y ejecutamos soluciones visuales alternativas para impactar y cautivar a cada uno de nuestros
+            clientes con enfoques nuevos y originales. Tenemos a tu disposición múltiples servicios de diseño, que van
+            de la mano con las necesidades de cada cliente, logrando así, que el mundo vea la mejor versión de tu marca
           </p>
         </div>
       </div>

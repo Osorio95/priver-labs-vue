@@ -8,23 +8,14 @@
         </h2>
         <div class="lg:col-start-2 lg:col-span-full text-xl mb-12">
             <p>
-                Priver Labs tiene una solución creativa ajustada a tu contexto.
+                Priver Lab te brinda la solución creativa adaptada a tus necesidades.
                 <br>
                 <br>
-                Puedes contactarno de la forma que prefieras: puedes dejarnos tu requerimiento en el formulario anexo o
-                contactarnos a traves de los siguientes canales.
+                Puedes enviarnos un email a nuestra dirección <a
+                    class="text-Secondary hover:text-TertiaryB transition-all"
+                    href="mailto:grupo@priver.app">grupo@priver.app</a> o llenar el formulario disponible en el
+                siguiente enlace.
             </p>
-            <ul class="mt-4">
-                <li>
-                    Correo: <a class="text-Secondary hover:text-TertiaryB transition-all"
-                        href="mailto:grupo@priver.app">grupo@priver.app</a>
-                </li>
-                <li>
-                    Teléfono: <a class="text-Secondary hover:text-TertiaryB transition-all"
-                        href="https://api.whatsapp.com/send?phone=584127560838">+58 412-7560838
-                    </a>
-                </li>
-            </ul>
         </div>
     </div>
 
