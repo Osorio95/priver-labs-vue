@@ -1,6 +1,3 @@
-<script setup>
-</script>
-
 <template>
   <section id="header" class="relative lg:flex lg:flex-col lg:justify-center">
     <div class="flex flex-col lg:grid lg:grid-cols-12 gap-4 xl:mt-6 xl:mb-16">
@@ -90,47 +87,16 @@
   </section>
 
   <section id="contact" class="lg:grid lg:grid-cols-12 lg:gap-4 mb-24 mx-8 lg:mx-0">
-    <div class="lg:col-start-1 lg:col-span-6 lg:grid lg:grid-cols-6 lg:gap-4">
-      <h6 class="lg:col-start-1 lg:col-span-full text-3xl">
-        ¿Quieres conocer más?
-      </h6>
-      <h2 class="lg:col-start-1 lg:col-span-full text-6xl font-bold my-4">
-        Contáctanos
-      </h2>
-      <div class="lg:col-start-2 lg:col-span-full text-xl mb-12">
-        <p>
-          Priver Labs tiene una solución creativa ajustada a tu contexto.
-          <br>
-          <br>
-          Puedes contactarno de la forma que prefieras: puedes dejarnos tu requerimiento en el formulario anexo o
-          contactarnos a traves de los siguientes canales. 
-        </p>
-        <ul class="mt-4">
-          <li>
-            Correo: <a class="text-Secondary hover:text-TertiaryB transition-all"
-              href="mailto:grupo@priver.app">grupo@priver.app</a>
-          </li>
-          <li>
-            Teléfono: <a class="text-Secondary hover:text-TertiaryB transition-all"
-              href="https://api.whatsapp.com/send?phone=584127560838">+58 412-7560838
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="lg:col-start-7 lg:col-span-6 lg:grid flex flex-col lg:mt-auto mt-6 text-2xl">
-      <input class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="Nombre" type="text" name="" id="">
-      <input class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="E-mail" type="email" name="" id="">
-      <input class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="Móvil" type="tel" name="" id="">
-      <input class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="Organización" type="text" name="" id="">
-      <textarea class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="Descripción del proyecto" type="text" rows="4"
-        name="" id=""></textarea>
-      <div class="mt-3">
-        <button type="submit" class="lg:w-fit w-full px-6 py-2 text-center rounded-md bg-Secondary text-2xl">
-          Envíar
-        </button>
-      </div>
-    </div>
+    <ContactVue />
   </section>
 </template>
+
+<script>
+import ContactVue from '../components/Contact.vue'
+export default {
+  name: 'homeview',
+  components: {
+    ContactVue
+  }
+}
+</script>
