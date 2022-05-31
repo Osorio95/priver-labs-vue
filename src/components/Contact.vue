@@ -18,25 +18,40 @@
             </p>
         </div>
     </div>
-
-    <form @submit.prevent="onCreatePost" v-if="showForm"
-        class="lg:col-start-7 lg:col-span-6 lg:grid flex flex-col lg:mt-auto mt-6 text-2xl">
-        <input v-model="formName" class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="Nombre" type="text"
-            name="name" id="name">
-        <input v-model="formEmail" class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="E-mail" type="email"
-            name="email" id="email">
-        <input v-model="formPhone" class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="Móvil" type="tel"
-            name="phone" id="phone">
-        <input v-model="formOrg" class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="Organización" type="text"
-            name="organization" id="organization">
-        <textarea v-model="formText" class="px-4 py-2 text-DarkA my-3 rounded-md" placeholder="Descripción del proyecto"
-            type="text" rows="4" name="text" id="text"></textarea>
-        <div class="mt-3">
-            <button type="submit" class="lg:w-fit w-full px-6 py-2 text-center rounded-md bg-Secondary text-2xl">
-                Envíar
-            </button>
+    <Transition name="slide-up" mode="out-in">
+        <form @submit.prevent="onCreatePost" v-if="showForm"
+            class="lg:col-start-7 lg:col-span-6 lg:grid flex flex-col lg:mt-auto mt-6 text-2xl">
+            <input @input="checkName" v-model="formName" class="px-4 py-2 text-DarkA my-3 rounded-md"
+                placeholder="Nombre" type="text" :class="{ 'shadow-md shadow-Warning': showErrorA }" name="name"
+                id="name">
+            <input @input="checkEmail" v-model="formEmail" class="px-4 py-2 text-DarkA my-3 rounded-md"
+                placeholder="E-mail" type="email" :class="{ 'shadow-md shadow-Warning': showErrorB }" name="email"
+                id="email">
+            <input @input="checkPhone" v-model="formPhone" class="px-4 py-2 text-DarkA my-3 rounded-md"
+                placeholder="Móvil" type="tel" :class="{ 'shadow-md shadow-Warning': showErrorC }" name="phone"
+                id="phone">
+            <input @input="checkOrg" v-model="formOrg" class="px-4 py-2 text-DarkA my-3 rounded-md"
+                placeholder="Organización" type="text" :class="{ 'shadow-md shadow-Warning': showErrorD }"
+                name="organization" id="organization">
+            <textarea @input="checkText" v-model="formText" class="px-4 py-2 text-DarkA my-3 rounded-md"
+                placeholder="Descripción del proyecto" :class="{ 'shadow-md shadow-Warning': showErrorE }" type="text"
+                rows="4" name="text" id="text"></textarea>
+            <div class="mt-3">
+                <button @click="verification" type="submit"
+                    class="lg:w-fit w-full px-6 py-2 text-center rounded-md bg-Secondary text-2xl">
+                    Envíar
+                </button>
+            </div>
+        </form>
+        <div v-else-if="!showForm" class="lg:col-start-7 lg:col-span-6 flex flex-col justify-center text-2xl">
+            <div
+                class="bg-Secondary w-full text-center rounded-lg p-6 self-center place-self-center justify-self-center self">
+                <h3>
+                    Estaremos en contacto contigo muy pronto.
+                </h3>
+            </div>
         </div>
-    </form>
+    </Transition>
 </template>
 
 <script>
@@ -48,15 +63,17 @@ export default {
             formPhone: '',
             formOrg: '',
             formText: '',
-            showForm: true
+            showForm: true,
+            showErrorA: false,
+            showErrorB: false,
+            showErrorC: false,
+            showErrorD: false,
+            showErrorE: false
         }
     },
     methods: {
-
         onCreatePost() {
-
             let errorCount = false
-
             let formElements = [
                 this.formName,
                 this.formEmail,
@@ -64,19 +81,14 @@ export default {
                 this.formOrg,
                 this.formText
             ]
-
-
             function checkValue(item) {
                 if (item.length < 1) {
-                    console.log(`${item}, is not a valid value`)
                     errorCount = true
                 }
             }
-
             for (let el of formElements) {
                 checkValue(el)
             }
-
             if (!errorCount) {
                 var myHeaders = new Headers();
                 myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
@@ -95,23 +107,73 @@ export default {
                     body: urlencoded,
                     redirect: 'follow'
                 };
-
+                
                 fetch("https://api.priver.app/lab/contact", requestOptions)
                     .then(response => response.text())
                     .then(result => console.log(result))
-                    .catch(error => console.log('error', error));
-
-                console.log('its working')
+                    .catch(error => console.log('error', error))
                 this.showForm = false
-
-            } else if (errorCount) {
-                console.log('PAY ATTENTION PLEASE')
             }
-
+        },
+        verification() {
+            this.checkName()
+            this.checkEmail()
+            this.checkPhone()
+            this.checkOrg()
+            this.checkText()
+        },
+        checkName() {
+            if (this.formName == '') {
+                this.showErrorA = true
+            } else if (this.formName !== '') {
+                this.showErrorA = false
+            }
+        },
+        checkEmail() {
+            if (this.formEmail == '') {
+                this.showErrorB = true
+            } else if (this.formEmail !== '') {
+                this.showErrorB = false
+            }
+        },
+        checkPhone() {
+            if (this.formPhone == '') {
+                this.showErrorC = true
+            } else if (this.formPhone !== '') {
+                this.showErrorC = false
+            }
+        },
+        checkOrg() {
+            if (this.formOrg == '') {
+                this.showErrorD = true
+            } else if (this.formOrg !== '') {
+                this.showErrorD = false
+            }
+        },
+        checkText() {
+            if (this.formText == '') {
+                this.showErrorE = true
+            } else if (this.formText !== '') {
+                this.showErrorE = false
+            }
         }
     }
 }
 </script>
 
 <style>
+.slide-up-enter-active,
+.slide-up-leave-active {
+    transition: all 0.25s ease-out;
+}
+
+.slide-up-enter-from {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.slide-up-leave-to {
+    opacity: 0;
+    transform: translateY(-30px);
+}
 </style>
