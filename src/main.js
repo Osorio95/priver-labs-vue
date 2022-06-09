@@ -31,3 +31,9 @@ const app = createApp(App)
 app.use(router)
 
 app.mount('#app')
+
+const matched = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if (!matched) {
+  document.querySelector('link[rel="icon"]').href = "/src/assets/imgs/icon/priver-light.png";
+}
