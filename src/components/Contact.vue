@@ -3,7 +3,7 @@
         <h6 class="lg:col-start-1 lg:col-span-full text-3xl">
             ¿Quieres conocer más?
         </h6>
-        <h2 class="lg:col-start-1 lg:col-span-full text-6xl font-bold my-4">
+        <h2 class="lg:col-start-1 lg:col-span-full text-4xl font-bold my-4">
             Contáctanos
         </h2>
         <div class="lg:col-start-2 lg:col-span-full text-xl mb-12">
@@ -20,7 +20,7 @@
     </div>
     <Transition name="slide-up" mode="out-in">
         <form @submit.prevent="onCreatePost" v-if="showForm"
-            class="lg:col-start-7 lg:col-span-6 lg:grid flex flex-col lg:mt-auto mt-6 text-2xl">
+            class="lg:col-start-7 lg:col-span-6 lg:grid flex flex-col lg:mt-auto mt-6 text-xl">
             <input @input="checkName" v-model="formName" class="px-4 py-2 text-DarkA my-3 rounded-md"
                 placeholder="Nombre" type="text" :class="{ 'shadow-md shadow-Warning': showErrorA }" name="name"
                 id="name">
