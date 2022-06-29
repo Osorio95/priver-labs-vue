@@ -1,24 +1,24 @@
 <template>
   <section id="header" class="relative grid grid-cols-2 my-36">
-      <div
-        class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
-      </div>
-      <div class="h-full lg:flex lg:flex-col justify-center">
-        <h1 class="my-4 w-fit font-semibold lg:text-7xl text-4xl mr-6">
-          ¡Transformamos tu marca en un referente digital!
-        </h1>
-        <p class="my-4 font-normal text-3xl">
-          Tenemos a tu disposición el mejor equipo y principales servicios de excelente calidad para que potencies y
-          posiciones tu marca.
-        </p>
-        <a class="lg:my-4 my-8 w-fit lg:px-6 lg:py-4 px-3 py-2 text-center rounded-lg bg-Secondary lg:text-3xl text-xl font-bold"
-          href="#contact">Consultanos para
-          más</a>
-      </div>
-      <div class="flex justify-center mt-8 lg:mt-0">
-        <img class="lg:h-[618px] lg:w-[773px] h-72 w-auto object-contain" src="../assets/imgs/Hand_4_1.png"
-          alt="hand using a smartphone">
-      </div>
+    <div
+      class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
+    </div>
+    <div class="h-full lg:flex lg:flex-col justify-center">
+      <h1 class="my-4 w-fit font-semibold lg:text-7xl text-4xl mr-6">
+        ¡Transformamos tu marca en un referente digital!
+      </h1>
+      <p class="my-4 font-normal text-3xl">
+        Tenemos a tu disposición el mejor equipo y principales servicios de excelente calidad para que potencies y
+        posiciones tu marca.
+      </p>
+      <a class="lg:my-4 my-8 w-fit lg:px-6 lg:py-4 px-3 py-2 text-center rounded-lg bg-Secondary lg:text-3xl text-xl font-bold"
+        href="#contact">Consultanos para
+        más</a>
+    </div>
+    <div class="flex justify-center mt-8 lg:mt-0">
+      <img class="lg:h-[618px] lg:w-[773px] h-72 w-auto object-contain" src="../assets/imgs/Hand_4_1.png"
+        alt="hand using a smartphone">
+    </div>
   </section>
 
   <section id="services" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden mx-8 lg:mx-0 text-center">
@@ -45,8 +45,8 @@
             Desarrollo
           </h4>
           <p class="lg:text-left my-4 text-xl">
-            Construimos aplicativos web que se caracterizan por su profundidad, versatilidad y capacidad de adaptación
-            visual en cualquier dispositivo. Logrando así, que el usuario pueda tener una experiencia cautivadora y
+            Construimos aplicativos que se caracterizan por su profundidad, versatilidad y capacidad de adaptación
+            en cualquier dispositivos. Logrando así, que el usuario pueda tener una experiencia cautivadora y
             satisfactoria en el servicio que proveemos.
           </p>
         </div>
@@ -77,7 +77,7 @@
             Diseño gráfico
           </h4>
           <p class="lg:text-left my-4 text-xl">
-            proyectamos y ejecutamos soluciones visuales alternativas para impactar y cautivar a cada uno de nuestros
+            Proyectamos y ejecutamos soluciones visuales alternativas para impactar y cautivar a cada uno de nuestros
             clientes con enfoques nuevos y originales. Tenemos a tu disposición múltiples servicios de diseño, que van
             de la mano con las necesidades de cada cliente, logrando así, que el mundo vea la mejor versión de tu marca
           </p>

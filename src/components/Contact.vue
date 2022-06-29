@@ -21,9 +21,30 @@
     <Transition name="slide-up" mode="out-in">
         <form @submit.prevent="onCreatePost" v-if="showForm"
             class="lg:col-start-7 lg:col-span-6 lg:grid flex flex-col lg:mt-auto mt-6 text-xl">
-            <input @input="checkName" v-model="formName" class="px-4 py-2 text-DarkA my-3 rounded-md"
-                placeholder="Nombre" type="text" :class="{ 'shadow-md shadow-Warning': showErrorA }" name="name"
-                id="name">
+            <div class="grid grid-cols-2 gap-4">
+                <input @input="checkName" v-model="formName" class="px-4 py-2 text-DarkA my-3 rounded-md"
+                    placeholder="Nombre" type="text" :class="{ 'shadow-md shadow-Warning': showErrorA }" name="name"
+                    id="name">
+                <div class="relative text-DarkA my-3">
+                    <select @input="checkService" v-model="formService"
+                        class="w-full appearance-none px-4 py-2 text-DarkA h-full rounded-md"
+                        placeholder="Regular input" :class="{ 'shadow-md shadow-Warning': showErrorE }">
+                        <option value="Marketing Digital">Marketing Digital</option>
+                        <option value="Desarrollo de app">Desarrollo de app</option>
+                        <option value="Desarrollo web">Desarrollo web</option>
+                        <option value="Diseño gráfico">Diseño gráfico</option>
+                        <option value="Redes sociales">Redes sociales</option>
+                        <option value="Inversionista">Invierte en Priver</option>
+                    </select>
+                    <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                        <svg class="w-8 h-8 fill-current" viewBox="0 0 20 20">
+                            <path fill="#9747ff"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd" fill-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
             <input @input="checkEmail" v-model="formEmail" class="px-4 py-2 text-DarkA my-3 rounded-md"
                 placeholder="E-mail" type="email" :class="{ 'shadow-md shadow-Warning': showErrorB }" name="email"
                 id="email">
@@ -59,6 +80,7 @@ export default {
     data() {
         return {
             formName: '',
+            formService: '',
             formEmail: '',
             formPhone: '',
             formOrg: '',
@@ -68,7 +90,8 @@ export default {
             showErrorB: false,
             showErrorC: false,
             showErrorD: false,
-            showErrorE: false
+            showErrorE: false,
+            showErrorF: false
         }
     },
     methods: {
@@ -76,6 +99,7 @@ export default {
             let errorCount = false
             let formElements = [
                 this.formName,
+                this.formService,
                 this.formEmail,
                 this.formPhone,
                 this.formOrg,
@@ -95,6 +119,7 @@ export default {
 
                 var urlencoded = new URLSearchParams();
                 urlencoded.append("clientName", this.formName);
+                urlencoded.append("clientService", this.formService);
                 urlencoded.append("clientEmail", this.formEmail);
                 urlencoded.append("clientPhone", this.formPhone);
                 urlencoded.append("clientOrganization", this.formOrg);
@@ -107,7 +132,7 @@ export default {
                     body: urlencoded,
                     redirect: 'follow'
                 };
-                
+
                 fetch("https://api.priver.app/lab/contact", requestOptions)
                     .then(response => response.text())
                     .then(result => console.log(result))
@@ -117,6 +142,7 @@ export default {
         },
         verification() {
             this.checkName()
+            this.checkService()
             this.checkEmail()
             this.checkPhone()
             this.checkOrg()
@@ -127,6 +153,13 @@ export default {
                 this.showErrorA = true
             } else if (this.formName !== '') {
                 this.showErrorA = false
+            }
+        },
+        checkService() {
+            if (this.formService == '') {
+                this.showErrorF = true
+            } else if (this.formService !== '') {
+                this.showErrorF = false
             }
         },
         checkEmail() {

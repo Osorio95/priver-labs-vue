@@ -20,7 +20,6 @@
 
 </template>
 <script>
-import { RouterLink, RouterView } from 'vue-router'
 import TheFooterVue from './components/layout/TheFooter.vue';
 import NavigationVue from './components/layout/Navigation.vue';
 

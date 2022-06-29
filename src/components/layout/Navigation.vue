@@ -6,20 +6,24 @@
                 <img class="h-auto w-full lg:h-max lg:w-auto" src="../../assets/imgs/Recurso_17_1.png" alt="">
             </div>
             <ul class="col-start-4 col-span-6 flex flex-row justify-evenly items-center" v-show="!mobile">
-                <li>
+                <!-- <li>
                     <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">Nosotros
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink class="h-fit hover:text-DarkC transition-colors ease-in-out" to="/">Productos
+                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/products">Productos
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink class="h-fit hover:text-DarkC transition-colors ease-in-out" to="/">Proyectos
+                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/projects">Proyectos
                     </RouterLink>
                 </li>
+                <li>
+                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/contacts">Contacto
+                    </RouterLink>
+                </li> -->
             </ul>
-            <div class="col-start-12 relative flex flex-row justify-evenly items-center">
+            <!-- <div class="col-start-12 relative flex flex-row justify-evenly items-center">
                 <img src="../../assets/imgs/icon/menu-4-64.png" @click="toggleMobileNav"
                     v-show="mobile" class="cursor-pointer bars sm:w-10 sm:h-10" :class="{ 'icon-active': mobileNav }" />
                 <transition name="mobile-nav">
@@ -31,18 +35,23 @@
                             </RouterLink>
                         </li>
                         <li class="my-4">
-                            <RouterLink class="h-fit hover:text-DarkC transition-colors ease-in-out" to="/">
+                            <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">
                                 Productos
                             </RouterLink>
                         </li>
                         <li class="my-4">
-                            <RouterLink class="h-fit hover:text-DarkC transition-colors ease-in-out" to="/">
+                            <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">
                                 Proyectos
+                            </RouterLink>
+                        </li>
+                        <li class="my-4">
+                            <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">
+                                Contacto
                             </RouterLink>
                         </li>
                     </ul>
                 </transition>
-            </div>
+            </div> -->
 
         </nav>
     </header>
