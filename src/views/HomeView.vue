@@ -86,7 +86,7 @@
     </div>
   </section>
 
-  <section id="contact" class="lg:grid lg:grid-cols-12 lg:gap-4 mb-24 mx-8 lg:mx-0">
+  <section id="contact" class="lg:grid lg:grid-cols-12 lg:gap-4 mb-24 mx-8 lg:mx-0 pt-12">
     <ContactVue />
   </section>
 </template>
