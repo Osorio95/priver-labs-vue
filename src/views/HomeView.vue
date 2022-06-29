@@ -1,30 +1,28 @@
 <template>
-  <section id="header" class="relative lg:flex lg:flex-col lg:justify-center">
-    <div class="flex flex-col lg:grid lg:grid-cols-12 gap-4 xl:mt-6 xl:mb-16">
+  <section id="header" class="relative grid grid-cols-2 my-36">
       <div
         class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
       </div>
-      <div class="lg:col-span-6 h-full lg:flex lg:flex-col justify-center">
-        <h1 class="my-4 w-fit font-semibold lg:text-5xl text-4xl mr-6">
+      <div class="h-full lg:flex lg:flex-col justify-center">
+        <h1 class="my-4 w-fit font-semibold lg:text-7xl text-4xl mr-6">
           ¡Transformamos tu marca en un referente digital!
         </h1>
-        <p class="my-4 font-normal text-2xl">
+        <p class="my-4 font-normal text-3xl">
           Tenemos a tu disposición el mejor equipo y principales servicios de excelente calidad para que potencies y
           posiciones tu marca.
         </p>
-        <a class="lg:my-4 my-8 w-fit lg:px-8 lg:py-2 px-3 py-2 text-center rounded-lg bg-Secondary lg:text-3xl text-xl font-bold"
+        <a class="lg:my-4 my-8 w-fit lg:px-6 lg:py-4 px-3 py-2 text-center rounded-lg bg-Secondary lg:text-3xl text-xl font-bold"
           href="#contact">Consultanos para
           más</a>
       </div>
-      <div class="lg:col-span-6 flex justify-center mt-8 lg:mt-0">
+      <div class="flex justify-center mt-8 lg:mt-0">
         <img class="lg:h-[618px] lg:w-[773px] h-72 w-auto object-contain" src="../assets/imgs/Hand_4_1.png"
           alt="hand using a smartphone">
       </div>
-    </div>
   </section>
 
   <section id="services" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden mx-8 lg:mx-0 text-center">
-    <div class="lg:col-start-2 lg:col-end-12 text-center">
+    <div class="lg:col-start-4 lg:col-end-10 text-center">
       <div class="lg:my-6 flex flex-col justify-center">
         <h2 class="font-bold text-5xl mb-4">
           Quienes somos
@@ -39,7 +37,7 @@
     </div>
     <div class="lg:col-start-2 lg:col-end-12">
       <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
-        <div class="w-2/5 lg:w-full flex flex-col justify-center">
+        <div class="w-2/5 lg:w-3/4 flex flex-col justify-center">
           <img class="object-contain" src="../assets/imgs/Rectangle_1.png" alt="a computer with graphs in the screen">
         </div>
         <div class="flex flex-col justify-center">
@@ -71,7 +69,7 @@
         </div>
       </div>
       <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
-        <div class="w-2/5 lg:w-full flex flex-col justify-center">
+        <div class="w-2/5 lg:w-3/4 flex flex-col justify-center">
           <img class="object-contain" src="../assets/imgs/Rectangle_3.png" alt="">
         </div>
         <div class="flex flex-col justify-center">
