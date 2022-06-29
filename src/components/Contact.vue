@@ -29,6 +29,7 @@
                     <select @input="checkService" v-model="formService"
                         class="w-full appearance-none px-4 py-2 text-DarkA h-full rounded-md"
                         placeholder="Regular input" :class="{ 'shadow-md shadow-Warning': showErrorE }">
+                        <option value="" disabled selected hidden invalid>Selecciona el servicio</option>
                         <option value="Marketing Digital">Marketing Digital</option>
                         <option value="Desarrollo de app">Desarrollo de app</option>
                         <option value="Desarrollo web">Desarrollo web</option>
@@ -195,6 +196,10 @@ export default {
 </script>
 
 <style>
+select[value=''] {
+    color: gray;
+}
+
 .slide-up-enter-active,
 .slide-up-leave-active {
     transition: all 0.25s ease-out;

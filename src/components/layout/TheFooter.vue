@@ -54,7 +54,7 @@
                                 </a>
                             </li>
                             <li class="ml-2">
-                                <a href="https://api.whatsapp.com/send?phone=584127560838">
+                                <a href="https://api.whatsapp.com/send?phone=584126479641">
                                     <img class="w-10" src="../../assets/imgs/icon/whatsapp.png"
                                         alt="social icon, link to our whatsapp">
                                 </a>
