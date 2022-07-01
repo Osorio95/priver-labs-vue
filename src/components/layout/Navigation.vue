@@ -3,29 +3,31 @@
     <header class="pt-4 lg:mx-32 mx-6 bg-Primary">
         <nav class="text-2xl grid grid-cols-12 justify-items-stretch z-50">
             <div class="col-start-1 col-span-2">
-                <img class="h-auto w-full lg:h-max lg:w-auto" src="../../assets/imgs/Recurso_17_1.png" alt="">
+                <img class="h-auto w-32" src="../../assets/imgs/logo-priverlab.svg" alt="">
             </div>
             <ul class="col-start-4 col-span-6 flex flex-row justify-evenly items-center" v-show="!mobile">
-                <!-- <li>
+                <li>
                     <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">Nosotros
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/products">Productos
+                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/products">
+                        Productos
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/projects">Proyectos
+                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/projects">
+                        Proyectos
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/contacts">Contacto
+                    <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/contact">Contacto
                     </RouterLink>
-                </li> -->
+                </li>
             </ul>
-            <!-- <div class="col-start-12 relative flex flex-row justify-evenly items-center">
-                <img src="../../assets/imgs/icon/menu-4-64.png" @click="toggleMobileNav"
-                    v-show="mobile" class="cursor-pointer bars sm:w-10 sm:h-10" :class="{ 'icon-active': mobileNav }" />
+            <div class="col-start-12 relative flex flex-row justify-evenly items-center">
+                <img src="../../assets/imgs/icon/menu-4-64.png" @click="toggleMobileNav" v-show="mobile"
+                    class="cursor-pointer bars sm:w-10 sm:h-10" :class="{ 'icon-active': mobileNav }" />
                 <transition name="mobile-nav">
                     <ul class="absolute top-16 text-md right-0 z-10 bg-DarkB flex flex-col justify-evenly py-1 px-8"
                         v-show="mobileNav">
@@ -35,24 +37,23 @@
                             </RouterLink>
                         </li>
                         <li class="my-4">
-                            <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">
+                            <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/products">
                                 Productos
                             </RouterLink>
                         </li>
                         <li class="my-4">
-                            <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">
+                            <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/projects">
                                 Proyectos
                             </RouterLink>
                         </li>
                         <li class="my-4">
-                            <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">
+                            <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/contact">
                                 Contacto
                             </RouterLink>
                         </li>
                     </ul>
                 </transition>
-            </div> -->
-
+            </div>
         </nav>
     </header>
 

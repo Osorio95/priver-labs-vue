@@ -7,9 +7,9 @@ module.exports = {
     colors: {
       'Primary': '#252525',
       'Secondary': '#9747FF',
-      'TertiaryA': '#',
-      'TertiaryB': '#B18CF9',
-      'TertiaryC': '#673BBC',
+      'TertiaryA': '#B18CF9',
+      'TertiaryB': '#d1c2ff',
+      'TertiaryC': '#673bbc',
       'TertiaryD': '#3C2975',
       'Warning': '#D1111C',
       'Start': '#FBBB0C',
@@ -24,6 +24,7 @@ module.exports = {
       'GreyD': '#D1D1D1',
       'GreyE': '#EFEFEF',
       'White': '#FFFFFF',
+      'cBlack': '#000000'
     },
     extend: {
       fontFamily: {
@@ -47,6 +48,9 @@ module.exports = {
             transform: 'scale(1)',
           }
         }
+      },
+      dropShadow: {
+        'Secondary': '0 0px 13px rgba(151, 71, 255, 0.85)',
       }
     },
   },

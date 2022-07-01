@@ -1,13 +1,14 @@
 <template>
-  <section id="header" class="relative grid grid-cols-2 my-36">
+
+  <section id="header" class="relative lg:grid lg:grid-cols-2 my-36">
     <div
       class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
     </div>
     <div class="h-full lg:flex lg:flex-col justify-center">
-      <h1 class="my-4 w-fit font-semibold lg:text-7xl text-4xl mr-6">
+      <h1 class="my-4 w-fit font-semibold lg:text-7xl text-5xl mr-6">
         ¡Transformamos tu marca en un referente digital!
       </h1>
-      <p class="my-4 font-normal text-3xl">
+      <p class="my-8 lg:my-4 font-normal text-3xl">
         Tenemos a tu disposición el mejor equipo y principales servicios de excelente calidad para que potencies y
         posiciones tu marca.
       </p>
@@ -16,7 +17,7 @@
         más</a>
     </div>
     <div class="flex justify-center mt-8 lg:mt-0">
-      <img class="lg:h-[618px] lg:w-[773px] h-72 w-auto object-contain" src="../assets/imgs/Hand_4_1.png"
+      <img class="lg:h-[618px] lg:w-[773px] h-72 w-auto object-contain" src="../assets/imgs/box-plot-hand1.svg"
         alt="hand using a smartphone">
     </div>
   </section>
@@ -38,7 +39,7 @@
     <div class="lg:col-start-2 lg:col-end-12">
       <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
         <div class="w-2/5 lg:w-3/4 flex flex-col justify-center">
-          <img class="object-contain" src="../assets/imgs/Rectangle_1.png" alt="a computer with graphs in the screen">
+          <img class="object-contain" src="../assets/imgs/au-1.svg" alt="a computer with graphs in the screen">
         </div>
         <div class="flex flex-col justify-center">
           <h4 class="text-5xl lg:text-left">
@@ -53,7 +54,7 @@
       </div>
       <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
         <div class="lg:hidden w-2/5 flex flex-col justify-center">
-          <img class="object-contain" src="../assets/imgs/Rectangle_2.png" alt="">
+          <img class="object-contain" src="../assets/imgs/au-2.svg" alt="">
         </div>
         <div class="flex flex-col justify-center">
           <h4 class="text-5xl lg:text-left">
@@ -65,12 +66,12 @@
           </p>
         </div>
         <div class="hidden lg:h-[541] w-auto place-self-end lg:flex flex-col items-center justify-center">
-          <img class="object-contain" src="../assets/imgs/Rectangle_2.png" alt="">
+          <img class="object-contain" src="../assets/imgs/au-2.svg" alt="">
         </div>
       </div>
       <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
         <div class="w-2/5 lg:w-3/4 flex flex-col justify-center">
-          <img class="object-contain" src="../assets/imgs/Rectangle_3.png" alt="">
+          <img class="object-contain" src="../assets/imgs/au-3.svg" alt="">
         </div>
         <div class="flex flex-col justify-center">
           <h4 class="text-5xl lg:text-left">

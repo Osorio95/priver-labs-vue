@@ -1,0 +1,32 @@
+[
+    {
+        "name": "pingdom",
+        "image": "src/assets/imgs/pingdom-logo-svg-150px.svg",
+        "link": "https://www.pingdom.com"
+    },
+    {
+        "name": "github",
+        "image": "src/assets/imgs/github-logo-svg-150px.svg",
+        "link": "https://www.github.com"
+    },
+    {
+        "name": "slack",
+        "image": "src/assets/imgs/slack-logo-svg-150px.svg",
+        "link": "https://www.slack.com"
+    },
+    {
+        "name": "gitlab",
+        "image": "src/assets/imgs/gitlab-logo-svg-150px.svg",
+        "link": "https://www.gitlab.com"
+    },
+    {
+        "name": "canva",
+        "image": "src/assets/imgs/canva-logo-svg-150px.svg",
+        "link": "https://www.canva.com"
+    },
+    {
+        "name": "unsplash",
+        "image": "src/assets/imgs/unsplash-logo-svg-150px.svg",
+        "link": "https://www.unsplash.com"
+    }
+]

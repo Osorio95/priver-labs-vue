@@ -1,0 +1,56 @@
+[
+    {
+        "title": "NeuralKnows",
+        "tags": "Diseño gráfico & Desarrollo web",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
+        "image1": "src/assets/imgs/p-neural-1.svg",
+        "image2": "..assets/imgs/",
+        "image3": "..assets/imgs/",
+        "link": "#"
+    },
+    {
+        "title": "El tesoro olvidado",
+        "tags": "Diseño gráfico (Editorial)",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
+        "image1": "src/assets/imgs/p-eto-1.svg",
+        "image2": "..assets/imgs/",
+        "image3": "..assets/imgs/",
+        "link": "#"
+    },
+    {
+        "title": "Sportly",
+        "tags": "Diseño gráfico & Desarrollo web",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
+        "image1": "src/assets/imgs/p-sportly-1.svg",
+        "image2": "..assets/imgs/",
+        "image3": "..assets/imgs/",
+        "link": "#"
+    },
+    {
+        "title": "El tesoro olvidado",
+        "tags": "Diseño gráfico (Editorial)",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
+        "image1": "src/assets/imgs/p-eto-1.svg",
+        "image2": "..assets/imgs/",
+        "image3": "..assets/imgs/",
+        "link": "#"
+    },
+    {
+        "title": "Sportly",
+        "tags": "Diseño gráfico & Desarrollo web",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
+        "image1": "src/assets/imgs/p-sportly-1.svg",
+        "image2": "..assets/imgs/",
+        "image3": "..assets/imgs/",
+        "link": "#"
+    },
+    {
+        "title": "NeuralKnows",
+        "tags": "Diseño gráfico & Desarrollo web",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
+        "image1": "src/assets/imgs/p-neural-1.svg",
+        "image2": "..assets/imgs/",
+        "image3": "..assets/imgs/",
+        "link": "#"
+    }
+]
