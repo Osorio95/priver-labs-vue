@@ -31,7 +31,7 @@
 
       <div class="lg:grid lg:grid-cols-12 lg:gap-8 flex flex-col my-8">
         <div class="text-xl col-span-4 border-2 border-Secondary rounded-lg p-8 lg:my-0 my-4">
-          <img class="mx-auto" src="../assets/imgs/Rectangle 19.png" alt="A laptop showing pictures">
+          <img class="mx-auto" src="../assets/imgs/product_lab.png" alt="A laptop showing pictures">
           <img class="mx-auto my-6 w-1/2" src="../assets/imgs/logo/logo-priverlab.svg" alt="Priver lab logo">
           <p class="inline-block">
             Solución integral especializada en acelear el crecimiento digital y tecnológico
@@ -39,7 +39,7 @@
           </p>
         </div>
         <div class="text-xl col-span-4 border-2 border-Secondary rounded-lg p-8 lg:my-0 my-4">
-          <img class="mx-auto" src="../assets/imgs/Rectangle 20.png" alt="A laptop showing pictures">
+          <img class="mx-auto" src="../assets/imgs/product_go.png" alt="A laptop showing pictures">
           <img class="mx-auto my-6 w-1/2" src="../assets/imgs/logo/logo-privergo.svg" alt="Priver lab logo">
           <p class="inline-block">
             Solución logistica para el servicio de traslado privado y encomiendas, potenciado por las teconolgías
@@ -47,7 +47,7 @@
           </p>
         </div>
         <div class="text-xl col-span-4 border-2 border-Secondary rounded-lg p-8 lg:my-0 my-4">
-          <img class="mx-auto" src="../assets/imgs/Rectangle 21.png" alt="A laptop showing pictures">
+          <img class="mx-auto" src="../assets/imgs/product_eats.png" alt="A laptop showing pictures">
           <img class="mx-auto my-6 w-1/2" src="../assets/imgs/logo/logo-privereats.svg" alt="Priver lab logo">
           <p class="inline-block">
             Solución para la entrega de comida a domicilio, diseñado en función de agilizar el proceso de despacho de
@@ -57,14 +57,14 @@
         <div class="col-span-2">
         </div>
         <div class="text-xl col-span-4 border-2 border-Secondary rounded-lg p-8 lg:my-0 my-4">
-          <img class="mx-auto" src="../assets/imgs/Rectangle 22.png" alt="A laptop showing pictures">
+          <img class="mx-auto" src="../assets/imgs/product_maps.png" alt="A laptop showing pictures">
           <img class="mx-auto my-6 w-1/2" src="../assets/imgs/logo/logo-privermaps.svg" alt="Priver lab logo">
           <p class="inline-block">
             Servicio de Geolocalización al mejor costo y al alcance de tu mano.
           </p>
         </div>
         <div class="text-xl col-span-4 border-2 border-Secondary rounded-lg p-8 lg:my-0 my-4">
-          <img class="mx-auto" src="../assets/imgs/Rectangle 23.png" alt="A laptop showing pictures">
+          <img class="mx-auto" src="../assets/imgs/product_pay.png" alt="A laptop showing pictures">
           <img class="mx-auto my-6 w-1/2" src="../assets/imgs/logo/logo-priverpay.svg" alt="Priver lab logo">
           <p class="inline-block">
             La solución de pagos que necesitas.
