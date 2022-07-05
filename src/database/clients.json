@@ -1,32 +1,32 @@
 [
     {
-        "name": "pingdom",
-        "image": "src/assets/imgs/pingdom-logo-svg-150px.svg",
-        "link": "https://www.pingdom.com"
+        "name": "CIA Consulting Group",
+        "image": "src/assets/imgs/partners/CIA.png",
+        "link": "https://www.ciaconsultingroup.com/"
     },
     {
-        "name": "github",
-        "image": "src/assets/imgs/github-logo-svg-150px.svg",
-        "link": "https://www.github.com"
+        "name": "StatKnows",
+        "image": "src/assets/imgs/partners/StatKnows.png",
+        "link": "https://www.statknows.com/"
     },
     {
-        "name": "slack",
-        "image": "src/assets/imgs/slack-logo-svg-150px.svg",
-        "link": "https://www.slack.com"
+        "name": "Ancor",
+        "image": "src/assets/imgs/partners/Ancor.ico",
+        "link": "https://ancorpipelineintegrity.com"
     },
     {
-        "name": "gitlab",
-        "image": "src/assets/imgs/gitlab-logo-svg-150px.svg",
-        "link": "https://www.gitlab.com"
+        "name": "Ytrium",
+        "image": "src/assets/imgs/partners/YTrium.png",
+        "link": "https://yttrium-technology.com/"
     },
     {
-        "name": "canva",
-        "image": "src/assets/imgs/canva-logo-svg-150px.svg",
-        "link": "https://www.canva.com"
+        "name": "Orthodonca",
+        "image": "src/assets/imgs/partners/Orthodonca.png",
+        "link": "https://orthodonca.com/"
     },
     {
-        "name": "unsplash",
-        "image": "src/assets/imgs/unsplash-logo-svg-150px.svg",
-        "link": "https://www.unsplash.com"
+        "name": "Inversiones Delta 3",
+        "image": "src/assets/imgs/partners/delta3.png",
+        "link": "https://www.inversionesdelta3venezuela.com/"
     }
 ]

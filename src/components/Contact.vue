@@ -15,6 +15,8 @@
                     class="text-Secondary hover:text-TertiaryB transition-all"
                     href="mailto:grupo@priver.app">grupo@priver.app</a> o llenar el formulario disponible en el
                 siguiente enlace.
+                <br>
+                <br>
             </p>
         </div>
     </div>

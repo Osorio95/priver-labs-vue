@@ -1,69 +1,68 @@
 <template>
+  <main class="relative lg:mx-28 mx-6">
 
-  <section id="header" class="relative grid grid-cols-2 mt-12">
+    <!-- <section id="header" class="relative lg:grid lg:grid-cols-2 2xl:my-36 my-14">
     <div
       class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
     </div>
     <div class="h-full lg:flex lg:flex-col justify-center">
-      <h1 class="my-4 w-fit font-semibold lg:text-7xl text-4xl mr-6">
+      <h1 class="my-4 w-fit font-semibold 2xl:text-7xl text-5xl mr-6">
         Lorem ipsum dolor sit amet consectetur
       </h1>
     </div>
-    <div class="flex justify-center mt-8 lg:mt-0">
-      <img class="lg:h-[618px] lg:w-[773px] h-72 w-auto object-contain" src="../assets/imgs/briefcase 1.svg"
-        alt="hand using a smartphone">
+    <div class="flex justify-center lg:justify-end mt-8 lg:mt-0">
+      <img class="2xl:h-[618px] 2xl:w-[773px] h-96 w-auto object-contain self-center" src="../assets/imgs/briefcase 1.svg"
+        alt="3d render of a briefcase">
     </div>
-  </section>
+  </section> -->
 
-  <section id="projects" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden lg:mx-0 text-center">
-    <div class="lg:col-span-12 lg:grid lg:grid-cols-12 lg:gap-4 lg:my-12">
-      <div class="lg:col-start-4 lg:col-end-10 text-center">
-        <div class="lg:my-6 flex flex-col justify-center">
-          <h2 class="font-bold text-5xl mb-4">
-            Proyectos
-          </h2>
-        </div>
-      </div>
-    </div>
+    <section id="projects" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden mx-8 lg:mx-0 text-center mb-36">
 
-    <div class="flex flex-col justify-around h-auto lg:flex-row lg:flex-wrap col-span-12">
-      <Portfolio v-for="(item, index) in projects" :key="index" :item="item" @click="showModal = true" />
-    </div>
-
-  </section>
-
-  <section id="clients" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden lg:mx-0 text-center my-36">
-
-    <div class="lg:col-span-12 my-24">
-      <h2 class="font-bold text-5xl mb-4">
-        Clientes
+      <h2 class="lg:col-span-12 lg:my-24 my-12 font-bold text-5xl text-center">
+        Proyectos
       </h2>
-    </div>
 
-    <div class="lg:col-span-12 flex flex-row justify-around">
-      <Client v-for="(client, index) in clients" :key="index" :client="client" />
-    </div>
+      <div class="flex flex-col justify-around h-auto lg:flex-row lg:flex-wrap col-span-12">
+        <Portfolio v-for="(item, index) in projects" :key="index" :item="item" @click="showModal = true"
+          @emitPorfolio="createModal" />
+      </div>
 
-  </section>
+    </section>
 
-  <Transition name="slide-up" mode="out-in">
-    <ProjectModal v-show="showModal" @close-modal="showModal = false" />
-  </Transition>
+    <section id="clients" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden lg:mx-0 text-center my-36">
 
+      <div class="lg:col-span-12 my-24">
+        <h2 class="font-bold text-5xl mb-4">
+          Clientes
+        </h2>
+      </div>
+
+      <div class="lg:col-span-12 flex md:flex-row md:flex-wrap flex-col justify-around items-center">
+        <Client v-for="(client, index) in clients" :key="index" :client="client" />
+      </div>
+
+    </section>
+
+    <Transition name="slide-up" mode="out-in">
+      <ProjectModal v-if="showModal" @close-modal="showModal = false" :item="portfolioModal" />
+    </Transition>
+  </main>
 </template>
 <script>
-import projects from '../database/portfolio.json'
-import clients from '../database/clients.json'
+
+import dataProjects from '../database/portfolio.json';
+import dataClients from '../database/clients.json';
 
 import Portfolio from '../components/Portfolio.vue';
 import Client from '../components/Client.vue';
-import ProjectModal from '../components/ProjectModal.vue';
+import ProjectModal from '../components/Modal.vue';
 
 export default {
   data() {
     return {
-      projects,
-      clients,
+      projects: dataProjects,
+      clients: dataClients,
+      portfolioModal: null,
       showModal: false
     };
   },
@@ -72,6 +71,11 @@ export default {
     Client,
     ProjectModal
   },
+  methods: {
+    createModal(event) {
+      this.portfolioModal = event
+    }
+  }
 };
 </script>
 

@@ -1,56 +1,90 @@
 [
     {
-        "title": "NeuralKnows",
-        "tags": "Diseño gráfico & Desarrollo web",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
-        "image1": "src/assets/imgs/p-neural-1.svg",
-        "image2": "..assets/imgs/",
-        "image3": "..assets/imgs/",
-        "link": "#"
+        "title": "Neural-Knows",
+        "tags": "Diseño gráfico, Desarrollo software & web",
+        "description": "Aplicacion Android, iOS, weareble y web para monitorear el estado animico y psicologico de los usuarios, incluye un chatbot, panel administrativo y contenido psicoterapeutico, elaborado con Flutter y Firebase.",
+        "link": "",
+        "images": [
+            "src/assets/imgs/projects/p-nk-1.png",
+            "src/assets/imgs/projects/p-nk-2.png",
+            "src/assets/imgs/projects/p-nk-3.png"
+        ]
     },
     {
         "title": "El tesoro olvidado",
         "tags": "Diseño gráfico (Editorial)",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
-        "image1": "src/assets/imgs/p-eto-1.svg",
-        "image2": "..assets/imgs/",
-        "image3": "..assets/imgs/",
-        "link": "#"
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur.",
+        "link": "",
+        "images": [
+            "src/assets/imgs/projects/p-eto-1.png",
+            "..assets/imgs/",
+            "..assets/imgs/"
+        ]
     },
     {
         "title": "Sportly",
         "tags": "Diseño gráfico & Desarrollo web",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
-        "image1": "src/assets/imgs/p-sportly-1.svg",
-        "image2": "..assets/imgs/",
-        "image3": "..assets/imgs/",
-        "link": "#"
+        "description": "Aplicacion Android y iOS dirigida a que los usuarios esten en contacto con sus canchas y espacios deportivos preferidos, equipos y compañeros.",
+        "link": "",
+        "images": [
+            "src/assets/imgs/projects/p-sport-1.png",
+            "..assets/imgs/",
+            "..assets/imgs/"
+        ]
     },
     {
-        "title": "El tesoro olvidado",
-        "tags": "Diseño gráfico (Editorial)",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
-        "image1": "src/assets/imgs/p-eto-1.svg",
-        "image2": "..assets/imgs/",
-        "image3": "..assets/imgs/",
-        "link": "#"
+        "title": "CIA Consulting Group",
+        "tags": "Desarrollo web",
+        "description": "Landing page con distintas secciones y un blog integrado.",
+        "link": "https://www.ciaconsultingroup.com/",
+        "images": [
+            "src/assets/imgs/projects/p-cia-1.png",
+            "src/assets/imgs/projects/p-cia-2.png",
+            "src/assets/imgs/projects/p-cia-3.png"
+        ]
     },
     {
-        "title": "Sportly",
-        "tags": "Diseño gráfico & Desarrollo web",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
-        "image1": "src/assets/imgs/p-sportly-1.svg",
-        "image2": "..assets/imgs/",
-        "image3": "..assets/imgs/",
-        "link": "#"
+        "title": "GrapeCounter",
+        "tags": "Desarrollo web",
+        "description": "GrapeCounter es una App Web, Android y iOS, que cuenta con una poderosa API alimentada por redes neuronales recurrentes, dedicada para el conteo de bayas de uva de mesa y desatinada al uso en campo. Esta herramienta cuenta con una poderosa API desarrollada en AdonisJS y Django para el procesamiento de imágenes y datos de estado de fincas en tiempo real.",
+        "link": "https://grapecounter.online/",
+        "images": [
+            "src/assets/imgs/projects/p-sport-1.png",
+            "..assets/imgs/",
+            "..assets/imgs/"
+        ]
     },
     {
-        "title": "NeuralKnows",
-        "tags": "Diseño gráfico & Desarrollo web",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatibu sapiente consequuntur",
-        "image1": "src/assets/imgs/p-neural-1.svg",
-        "image2": "..assets/imgs/",
-        "image3": "..assets/imgs/",
-        "link": "#"
+        "title": "ScaleMan",
+        "tags": "Desarrollo de software",
+        "description": "ScaleMan. Portal de informes en línea de BSA con sede en Noruega para los cuales se desarrollo una plataforma de generacion de informes petroquimicos de yacimientos y pozos petroleros de todo el mundo.",
+        "link": "https://www.scaleprotection.com/",
+        "images": [
+            "src/assets/imgs/projects/p-sport-1.png",
+            "..assets/imgs/",
+            "..assets/imgs/"
+        ]
+    },
+    {
+        "title": "IXIM",
+        "tags": "Desarrollo de software",
+        "description": "IXIM Es un software de escritorio creado para ser una suit completa de análisis de riesgo climático para la siembra y agricultura, fue desarrollado para la FAO contando con un poderoso ensamble de Backend en NodeJS y diseño de base de datos en MongoDB.",
+        "link": "https://www.fao.org/home/en/",
+        "images": [
+            "src/assets/imgs/projects/p-sport-1.png",
+            "..assets/imgs/",
+            "..assets/imgs/"
+        ]
+    },
+    {
+        "title": "BeeMaping",
+        "tags": "Desarrollo de software",
+        "description": "Aplicación web, android, e ios para monitorear el Varroa Destructor sobre el papel adherente en las colmenas. Empleando inteligencia artificial profunda. La App, Analiza las imágenes de colmenas para el reconocimiento y conteo automatizado de varroas.",
+        "link": "https://beemapping.com/",
+        "images": [
+            "src/assets/imgs/projects/p-sport-1.png",
+            "..assets/imgs/",
+            "..assets/imgs/"
+        ]
     }
 ]
