@@ -138,7 +138,9 @@ export default {
 
                 fetch("https://api.priver.app/lab/contact", requestOptions)
                     .then(response => response.text())
-                    .then(result => console.log(result))
+                    .then(result => {
+                        gtag('event', 'send_contact_form', { 'value': true });
+                    })
                     .catch(error => console.log('error', error))
                 this.showForm = false
             }
