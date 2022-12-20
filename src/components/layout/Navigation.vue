@@ -17,11 +17,11 @@
                             Productos
                         </RouterLink>
                     </li>
-                    <!-- <li>
+                    <li>
                         <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/projects">
                             Proyectos
                         </RouterLink>
-                    </li> -->
+                    </li>
                     <li>
                         <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/contact">
                             Contacto
