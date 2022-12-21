@@ -1,32 +1,32 @@
 [
     {
         "name": "CIA Consulting Group",
-        "image": "src/assets/imgs/partners/CIA.png",
+        "image": "partners/CIA.png",
         "link": "https://www.ciaconsultingroup.com/"
     },
     {
         "name": "StatKnows",
-        "image": "src/assets/imgs/partners/StatKnows.png",
+        "image": "partners/StatKnows.png",
         "link": "https://www.statknows.com/"
     },
     {
         "name": "Ancor",
-        "image": "src/assets/imgs/partners/Ancor.ico",
+        "image": "partners/Ancor.ico",
         "link": "https://ancorpipelineintegrity.com"
     },
     {
         "name": "Ytrium",
-        "image": "src/assets/imgs/partners/YTrium.png",
+        "image": "partners/YTrium.png",
         "link": "https://yttrium-technology.com/"
     },
     {
         "name": "Orthodonca",
-        "image": "src/assets/imgs/partners/Orthodonca.png",
+        "image": "partners/Orthodonca.png",
         "link": "https://orthodonca.com/"
     },
     {
         "name": "Inversiones Delta 3",
-        "image": "src/assets/imgs/partners/delta3.png",
+        "image": "partners/delta3.png",
         "link": "https://www.inversionesdelta3venezuela.com/"
     }
 ]

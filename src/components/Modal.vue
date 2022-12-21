@@ -1,9 +1,10 @@
 <template>
     <div class="fixed -top-20 -bottom-20 left-0 right-0 flex justify-center z-40 bg-Primary bg-opacity-80"
         @click="$emit('close-modal')">
-        <div class="bg-TertiaryC rounded-2xl lg:p-10 p-6 h-fit mx-auto lg:w-1/2 w-11/12 2xl:mt-64 md:mt-36 mt-48 z-50" @click.stop>
+        <div class="bg-TertiaryC rounded-2xl lg:p-10 p-6 h-fit mx-auto lg:w-1/2 w-11/12 2xl:mt-64 md:mt-36 mt-48 z-50"
+            @click.stop>
             <div class="rounded-2xl overflow-hidden">
-                <vueper-slides :slide-ratio="2 / 4" :arrows="false">
+                <vueper-slides :slide-ratio="2 / 4">
                     <vueper-slide v-for="(slide, i) in item.images" :key="i" :image="slide" />
                 </vueper-slides>
             </div>
