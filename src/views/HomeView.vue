@@ -28,7 +28,7 @@
       <div class="lg:col-start-2 lg:col-end-12">
         <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
           <div class="w-[330px] h-auto flex flex-col justify-center">
-            <img class="object-contain" src="main/au-1.svg" alt="a computer with graphs in the screen">
+            <img class="object-contain" src="/main/au-1.svg" alt="a computer with graphs in the screen">
           </div>
           <div class="flex flex-col justify-center">
             <h4 class="text-5xl lg:text-left">
@@ -42,7 +42,7 @@
         </div>
         <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
           <div class="lg:hidden w-[330px] h-auto flex flex-col justify-center">
-            <img class="object-contain" src="main/au-2.svg" alt="">
+            <img class="object-contain" src="/main/au-2.svg" alt="">
           </div>
           <div class="flex flex-col justify-center">
             <h4 class="text-5xl lg:text-left">
@@ -54,12 +54,12 @@
             </p>
           </div>
           <div class="hidden w-[330px] h-auto place-self-end lg:flex flex-col items-center justify-center">
-            <img class="object-contain" src="main/au-2.svg" alt="">
+            <img class="object-contain" src="/main/au-2.svg" alt="">
           </div>
         </div>
         <div class="lg:grid lg:grid-cols-2 lg:gap-4 justify-items-stretch flex flex-col items-center my-16">
           <div class="w-[330px] h-auto flex flex-col justify-center">
-            <img class="object-contain" src="main/au-3.svg" alt="">
+            <img class="object-contain" src="/main/au-3.svg" alt="">
           </div>
           <div class="flex flex-col justify-center">
             <h4 class="text-5xl lg:text-left">

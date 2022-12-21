@@ -30,7 +30,7 @@
                 </ul>
             </transition>
             <div class="col-start-12 relative flex flex-row justify-evenly items-center">
-                <img src="icon/menu-4-64.png" @click="toggleMobileNav" v-show="mobile"
+                <img src="/icon/menu-4-64.png" @click="toggleMobileNav" v-show="mobile"
                     class="cursor-pointer bars sm:w-10 sm:h-10" :class="{ 'icon-active': mobileNav }" />
                 <transition name="mobile-nav">
                     <ul class="absolute top-16 text-md right-0 z-40 bg-DarkB flex flex-col justify-evenly py-1 px-8"
