@@ -3,7 +3,7 @@
         <div class="lg:mx-32 mx-6">
             <div class="lg:grid lg:grid-cols-2 flex flex-col">
                 <div class="lg:grid lg:grid-cols-6 flex items-center justify-center">
-                    <img class="lg:col-start-2 lg:col-span-full h-2/3 w-auto" src="../../assets/imgs/logo/logo-priver.svg"
+                    <img class="lg:col-start-2 lg:col-span-full h-2/3 w-auto" src="/logo/logo-priver.svg"
                         alt="">
                 </div>
                 <div class="lg:grid lg:grid-cols-6">
@@ -22,12 +22,12 @@
                                         Productos
                                     </RouterLink>
                                 </li>
-                                <!-- <li>
+                                <li>
                                     <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out"
                                         to="/projects">
                                         Proyectos
                                     </RouterLink>
-                                </li> -->
+                                </li>
                                 <li>
                                     <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out"
                                         to="/contact">

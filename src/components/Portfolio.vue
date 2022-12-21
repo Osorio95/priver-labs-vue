@@ -1,10 +1,10 @@
 <template>
-    <div class="relative lg:w-[31%] rounded-xl overflow-hidden cursor-pointer my-4 aspect-square" @mouseover="hover = true"
+    <div class="relative xl:w-[32%] rounded-xl overflow-hidden cursor-pointer aspect-square" @mouseover="hover = true"
         @mouseleave="hover = false" @click="emitPorfolio">
-        <div class="absolute top-0 bg-cBlack w-full h-full opacity-40 z-10" :class="{ 'opacity-60': hover }"></div>
+        <div class="absolute top-0 bg-cBlack w-full h-full opacity-40 z-10" :class="{ 'opacity-70': hover }"></div>
         <img class="object-cover h-full" :src="item.images[0]" :class="{ 'scale-125': hover }" alt="">
         <div class="absolute bottom-0 p-6 w-full z-20">
-            <h6 class="text-left text-base font-bold w-1/2" :class="{ 'text-lg': hover }">{{ item.tags }}</h6>
+            <h6 class="text-left text-base font-bold w-2/3" :class="{ 'text-lg': hover }">{{ item.tags }}</h6>
             <h2 class="text-left md:text-5xl text-3xl" :class="{ 'text-6xl text-Secondary font-bold': hover }">{{ item.title }}</h2>
             <p class="text-left text-base overflow-hidden max-h-12 text-clip">
                 {{ item.description }}

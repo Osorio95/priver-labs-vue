@@ -6,3 +6,19 @@
   font-family: 'Product-sans';
   src: url('./assets/fonts/Product_Sans Regular.ttf');
 }
+@font-face {
+  font-family: 'Product-sans';
+  src: url('./assets/fonts/Product_Sans Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Product-sans';
+  src: url('./assets/fonts/Product_Sans Italic.ttf.ttf');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Product-sans';
+  src: url('./assets/fonts/Product_Sans Bold Italic.ttf');
+  font-weight: bold;
+  font-style: italic;
+}

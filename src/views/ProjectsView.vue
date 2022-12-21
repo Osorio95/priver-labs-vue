@@ -2,22 +2,16 @@
   <main class="relative lg:mx-28 mx-6">
 
     <section id="projects" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden mx-8 lg:mx-0 text-center mb-36">
-      <h2 class="lg:col-span-12 lg:my-24 my-12 font-bold text-5xl text-center">
+      <h2 class="lg:col-span-12 lg:mt-24 lg:mb-6 my-12 font-bold text-5xl text-center">
         Proyectos
       </h2>
-      <div class="flex flex-col justify-around h-auto lg:flex-row lg:flex-wrap col-span-12">
-        <Portfolio v-for="(item, index) in projects" :key="index" :item="item" @click="showModal = true"
+      <div class="flex flex-col gap-5 justify-around h-auto md:flex-row md:flex-wrap col-span-12">
+        <Portfolio 
+          v-for="(item, index) in projects" 
+          :key="index" 
+          :item="item" 
+          @click="showModal = true"
           @emitPorfolio="createModal" />
-      </div>
-    </section>
-    <section id="clients" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden lg:mx-0 text-center my-36">
-      <div class="lg:col-span-12 my-24">
-        <h2 class="font-bold text-5xl mb-4">
-          Clientes
-        </h2>
-      </div>
-      <div class="lg:col-span-12 flex md:flex-row md:flex-wrap flex-col justify-around items-center">
-        <Client v-for="(client, index) in clients" :key="index" :client="client" />
       </div>
     </section>
     <Transition name="slide-up" mode="out-in">
