@@ -11,7 +11,8 @@
     {
         "title": "Análisis de siembra y cultivo",
         "tags": "Desarrollo software & app",
-        "description": "Se crea un geovalla (KML) de los linderos de la finca a estudiar a partir del cual se programa un plan de vuelo para un drone equipado con distintos tipos de cámara, para realizar un análisis exhaustivo con el fin de determinar mediante una inteligencia artificial las propiedades del terreno y las regiones con desviación en siembra que afectarán la producción y el cultivo a fin de corregirdichas fallas.\nRiego y fumigación con drone\nCon los mismos linderos, plan de vuelo y resultados del análisis anterior, se programan planes de riego y fumigación altamente eficientes orquestados con drones.","link": "",
+        "description": "Se crea un geovalla (KML) de los linderos de la finca a estudiar a partir del cual se programa un plan de vuelo para un drone equipado con distintos tipos de cámara, para realizar un análisis exhaustivo con el fin de determinar mediante una inteligencia artificial las propiedades del terreno y las regiones con desviación en siembra que afectarán la producción y el cultivo a fin de corregirdichas fallas.",
+        "link": "",
         "images": [
             "projects/p-ana-1.jpg"
         ]

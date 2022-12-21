@@ -8,7 +8,7 @@
                     </span>
                 </div>
             </transition>
-            <img class="h-48 w-11/12 rounded-lg group-hover:rounded-none object-cover group-hover:w-full group-hover:h-full mx-auto transition-all" :src="bannerImg" :alt="bannerAlt">
+            <img class="h-48 w-11/12 rounded-lg group-hover:rounded-none object-cover group-hover:w-full group-hover:h-full mx-auto transition-all duration-300" :src="bannerImg" :alt="bannerAlt">
             <img class="mx-auto my-6 w-1/2 group-hover:absolute group-hover:bottom-16 group-hover:right-6 z-10" :src="logoImg" :alt="logoAlt">
             <p class="group-hover:opacity-0 inline-block mb-4">
                 {{text}}

@@ -5,7 +5,7 @@
       <h2 class="lg:col-span-12 lg:mt-24 lg:mb-6 my-12 font-bold text-5xl text-center">
         Proyectos
       </h2>
-      <div class="flex flex-col gap-5 justify-around h-auto md:flex-row md:flex-wrap col-span-12">
+      <div class="flex flex-col w-fit gap-2 h-auto md:flex-row md:flex-wrap col-span-12">
         <Portfolio 
           v-for="(item, index) in projects" 
           :key="index" 
@@ -24,7 +24,7 @@
 import dataProjects from '../database/portfolio.json';
 import dataClients from '../database/clients.json';
 
-import Portfolio from '../components/Portfolio.vue';
+import Portfolio from '../components/Project.vue';
 import Client from '../components/Client.vue';
 import ProjectModal from '../components/Modal.vue';
 

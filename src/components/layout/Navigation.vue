@@ -1,5 +1,4 @@
 <template>
-
     <header class="pt-4 lg:mx-32 mx-6 bg-Primary">
         <nav class="text-2xl grid grid-cols-12 justify-items-stretch z-50">
             <div class="col-start-1 col-span-2">
@@ -8,23 +7,9 @@
             <transition>
                 <ul id="main-navbar" class="xl:col-start-4 xl:col-span-6 col-start-3 col-span-8 flex flex-row gap-12 justify-evenly items-center"
                     v-show="!mobile">
-                    <li>
-                        <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/">Nosotros
-                        </RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/products">
-                            Productos
-                        </RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/projects">
-                            Proyectos
-                        </RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" to="/contact">
-                            Contacto
+                    <li v-for="(el, index) in urls" :key="index">
+                        <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" :to="el.path">
+                            {{ el.name }}
                         </RouterLink>
                     </li>
                 </ul>
@@ -35,24 +20,9 @@
                 <transition name="mobile-nav">
                     <ul class="absolute top-16 text-md right-0 z-40 bg-DarkB flex flex-col justify-evenly py-1 px-8"
                         v-show="mobileNav">
-                        <li class="my-4">
-                            <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out" @click="toggleMobileNav" to="/">
-                                Nosotros
-                            </RouterLink>
-                        </li>
-                        <li class="my-4">
-                            <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out" @click="toggleMobileNav" to="/products">
-                                Productos
-                            </RouterLink>
-                        </li>
-                        <!-- <li class="my-4">
-                            <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out" @click="toggleMobileNav" to="/projects">
-                                Proyectos
-                            </RouterLink>
-                        </li> -->
-                        <li class="my-4">
-                            <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out" @click="toggleMobileNav" to="/contact">
-                                Contacto
+                        <li v-for="(el, index) in urls" :key="index"  class="my-4">
+                            <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out" @click="toggleMobileNav" :to="el.path">
+                                {{ el.name }}
                             </RouterLink>
                         </li>
                     </ul>
@@ -64,7 +34,8 @@
 </template>
 
 <script>
-import { RouterLink, RouterView } from 'vue-router'
+import router from '../../router/index'
+import { RouterLink } from 'vue-router'
 
 export default {
     name: 'navigation',
@@ -72,7 +43,8 @@ export default {
         return {
             mobile: null,
             mobileNav: null,
-            windowWidth: null
+            windowWidth: null,
+            urls: router.getRoutes()
         }
     },
     created() {
@@ -83,6 +55,7 @@ export default {
         toggleMobileNav() {
             this.mobileNav = !this.mobileNav;
         },
+        
         checkScreen() {
             this.windowWidth = innerWidth;
             if (this.windowWidth <= 1026) {

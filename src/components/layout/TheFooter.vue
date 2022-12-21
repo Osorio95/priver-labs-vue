@@ -3,35 +3,17 @@
         <div class="lg:mx-32 mx-6">
             <div class="lg:grid lg:grid-cols-2 flex flex-col">
                 <div class="lg:grid lg:grid-cols-6 flex items-center justify-center">
-                    <img class="lg:col-start-2 lg:col-span-full h-2/3 w-auto" src="/logo/logo-priver.svg"
-                        alt="">
+                    <img class="lg:col-start-2 lg:col-span-full h-2/3 w-auto" src="/logo/logo-priver.svg" alt="">
                 </div>
                 <div class="lg:grid lg:grid-cols-6">
                     <div class="lg:col-span-5 flex flex-col lg:items-end lg:justify-evenly justify-center">
                         <nav
                             class="hidden lg:flex text-2xl flex-row justify-between content-center items-center w-full">
                             <ul class="flex flex-row justify-between items-center w-full">
-                                <li>
-                                    <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out" to="/">
-                                        Nosotros
-                                    </RouterLink>
-                                </li>
-                                <li>
+                                <li v-for="(el, index) in urls" :key="index">
                                     <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out"
-                                        to="/products">
-                                        Productos
-                                    </RouterLink>
-                                </li>
-                                <li>
-                                    <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out"
-                                        to="/projects">
-                                        Proyectos
-                                    </RouterLink>
-                                </li>
-                                <li>
-                                    <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out"
-                                        to="/contact">
-                                        Contacto
+                                        :to="el.path">
+                                        {{ el.name }}
                                     </RouterLink>
                                 </li>
                             </ul>
@@ -74,20 +56,24 @@
                 </div>
             </div>
             <div class="grid grid-cols-12 lg:mt-16 mt-12">
-                <p class="col-start-2 col-span-10 text-base mt-6 text-center">Copyright &copy; {{ copyrightYear }} Grupo
-                    Priver, C.A.
-                    Todos los derechos reservados.</p>
+                <p class="col-start-2 col-span-10 text-base mt-6 text-center">
+                    Copyright &copy; {{ copyrightYear }} Grupo Priver, C.A. Todos los derechos reservados.</p>
             </div>
         </div>
-
     </footer>
 </template>
 
 <script>
-import { RouterLink, RouterView } from 'vue-router'
+import router from '../../router/index'
+import { RouterLink } from 'vue-router'
 
 export default {
     name: 'TheFooter',
+    data() {
+        return {
+            urls: router.getRoutes()
+        }
+    },
     computed: {
         copyrightYear: () => {
             return (new Date(Date.now())).getFullYear()
@@ -97,4 +83,5 @@ export default {
 </script>
 
 <style>
+
 </style>
