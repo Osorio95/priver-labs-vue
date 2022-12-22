@@ -1,12 +1,11 @@
 <template>
   <main class="relative lg:mx-28 mx-6">
-
-    <section id="projects" class="lg:grid lg:grid-cols-12 lg:gap-4 lg:overflow-hidden mx-8 lg:mx-0 text-center mb-36">
+    <section id="projects" class="lg:grid lg:grid-cols-12 flex flex-col justify-center lg:gap-4 lg:overflow-hidden mx-8 lg:mx-0 text-center mb-36">
       <h2 class="lg:col-span-12 lg:mt-24 lg:mb-6 my-12 font-bold text-5xl text-center">
         Proyectos
       </h2>
-      <div class="flex flex-col w-fit gap-2 h-auto md:flex-row md:flex-wrap col-span-12">
-        <Portfolio 
+      <div class="flex flex-col xl:gap-2 gap-6 h-auto md:flex-row xl:justify-start justify-center md:flex-wrap col-span-12">
+        <Project 
           v-for="(item, index) in projects" 
           :key="index" 
           :item="item" 
@@ -24,7 +23,7 @@
 import dataProjects from '../database/portfolio.json';
 import dataClients from '../database/clients.json';
 
-import Portfolio from '../components/Project.vue';
+import Project from '../components/Project.vue';
 import Client from '../components/Client.vue';
 import ProjectModal from '../components/Modal.vue';
 
@@ -38,7 +37,7 @@ export default {
     };
   },
   components: {
-    Portfolio,
+    Project,
     Client,
     ProjectModal
   },
