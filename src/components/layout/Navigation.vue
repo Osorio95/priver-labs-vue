@@ -5,11 +5,12 @@
                 <img class="h-auto w-32" src="/logo/logo-priverlab.svg" alt="">
             </div>
             <transition>
-                <ul id="main-navbar" class="xl:col-start-4 xl:col-span-6 col-start-3 col-span-8 flex flex-row gap-12 justify-evenly items-center"
+                <ul id="main-navbar"
+                    class="xl:col-start-4 xl:col-span-6 col-start-3 col-span-8 flex flex-row gap-12 justify-evenly items-center"
                     v-show="!mobile">
                     <li v-for="(el, index) in urls" :key="index">
                         <RouterLink class="h-fit hover:text-Secondary transition-colors ease-in-out" :to="el.path">
-                            {{ el.name }}
+                            {{ $t(el.name) }}
                         </RouterLink>
                     </li>
                 </ul>
@@ -20,9 +21,10 @@
                 <transition name="mobile-nav">
                     <ul class="absolute top-16 text-md right-0 z-40 bg-DarkB flex flex-col justify-evenly py-1 px-8"
                         v-show="mobileNav">
-                        <li v-for="(el, index) in urls" :key="index"  class="my-4">
-                            <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out" @click="toggleMobileNav" :to="el.path">
-                                {{ el.name }}
+                        <li v-for="(el, index) in urls" :key="index" class="my-4">
+                            <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out"
+                                @click="toggleMobileNav" :to="el.path">
+                                {{ $t(el.name) }}
                             </RouterLink>
                         </li>
                     </ul>
@@ -44,7 +46,7 @@ export default {
             mobile: null,
             mobileNav: null,
             windowWidth: null,
-            urls: router.getRoutes()
+            urls: router.getRoutes().slice(0, 4)
         }
     },
     created() {
@@ -55,7 +57,7 @@ export default {
         toggleMobileNav() {
             this.mobileNav = !this.mobileNav;
         },
-        
+
         checkScreen() {
             this.windowWidth = innerWidth;
             if (this.windowWidth <= 1026) {

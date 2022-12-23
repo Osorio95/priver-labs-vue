@@ -4,7 +4,7 @@
       <h2 class="lg:col-span-12 lg:mt-24 lg:mb-6 my-12 font-bold text-5xl text-center">
         Proyectos
       </h2>
-      <div class="flex flex-col xl:gap-2 gap-6 h-auto md:flex-row xl:justify-start justify-center md:flex-wrap col-span-12">
+      <div class="flex flex-col xl:gap-2 md:gap-4 gap-6 h-auto md:flex-row xl:justify-start justify-center md:flex-wrap col-span-12">
         <Project 
           v-for="(item, index) in projects" 
           :key="index" 
@@ -19,26 +19,21 @@
   </main>
 </template>
 <script>
-
 import dataProjects from '../database/portfolio.json';
-import dataClients from '../database/clients.json';
 
 import Project from '../components/Project.vue';
-import Client from '../components/Client.vue';
 import ProjectModal from '../components/Modal.vue';
 
 export default {
   data() {
     return {
       projects: dataProjects,
-      clients: dataClients,
       portfolioModal: null,
-      showModal: false
+      showModal: false,
     };
   },
   components: {
     Project,
-    Client,
     ProjectModal
   },
   methods: {

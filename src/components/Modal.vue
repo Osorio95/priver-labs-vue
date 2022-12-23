@@ -10,13 +10,13 @@
             </div>
             <div class="w-full flex flex-col gap-2 justify-center">
                 <h6 class="text-left text-base font-bold">
-                    {{ item.tags }}
+                    {{ $t(item.tags) }}
                 </h6>
                 <h2 class="text-left lg:text-5xl text-2xl font-bold">
-                    {{ item.title }}
+                    {{ $t(item.title) }}
                 </h2>
                 <p class="text-left text-base">
-                    {{ item.description }}
+                    {{ $t(item.description) }}
                 </p>
                 <div class="absolute bottom-0 flex md:justify-end justify-center w-full my-4" v-if="hasLink">
                     <a class="self-center w-fit lg:px-6 lg:py-2 py-4 px-6 h-fit text-center rounded-lg bg-White text-Secondary lg:text-3xl text-xl font-bold"

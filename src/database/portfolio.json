@@ -1,162 +1,162 @@
 [
     {
-        "title": "Grape Counter",
-        "tags": "Desarrollo software & app",
-        "description": "Grape Counter es un sistema basado en inteligencia artificial, desarrollado para maximizar el proceso de raleo durante la selección de prospectos a mejores racimos desde que son bayas, obteniendo un análisis preciso del tipo de baya y sus proyecciones con respecto a producción, proveyendo altos resultados de desempeño en los campos y cuarteles de viñedos.",
+        "title": "projectsGrapeCounterName",
+        "tags": "projectsTagSoftAndAppDev",
+        "description": "projectsGrapeCounterText",
         "link": "https://grapecounter.online/",
         "images": [
-            "projects/p-gc-1.jpg"
+            "projectsImg/p-gc-1.jpg"
         ]
     },
     {
-        "title": "Análisis de siembra y cultivo",
-        "tags": "Desarrollo software & app",
-        "description": "Se crea un geovalla (KML) de los linderos de la finca a estudiar a partir del cual se programa un plan de vuelo para un drone equipado con distintos tipos de cámara, para realizar un análisis exhaustivo con el fin de determinar mediante una inteligencia artificial las propiedades del terreno y las regiones con desviación en siembra que afectarán la producción y el cultivo a fin de corregirdichas fallas.",
+        "title": "projectsSowingAnalysisName",
+        "tags": "projectsTagSoftAndAppDev",
+        "description": "projectsSowingAnalysisText",
         "link": "",
         "images": [
-            "projects/p-ana-1.jpg"
+            "projectsImg/p-ana-1.jpg"
         ]
     },
     {
-        "title": "ZooAquarium",
-        "tags": "Diseño gráfico & Desarrollo web",
-        "description": "Página web informativa y registro QR en el recinto para identificación e información de cada animal.",
+        "title": "projectsZooAquariumName",
+        "tags": "projectsTagGraphDesAndWebDev",
+        "description": "projectsZooAquariumText",
         "link": "https://www.zooaquariumval.com/",
         "images": [
-            "projects/p-aq-1.jpg"
+            "projectsImg/p-aq-1.jpg"
         ]
     },
     {
-        "title": "ExpoValencia",
-        "tags": "Diseño gráfico, Desarrollo software & web",
-        "description": "Página web informativa del evento y filtro de Meta con ruleta de las zonas/atracciones a visitar",
+        "title": "projectsExpoValenciaName",
+        "tags": "projectsTagGraphDesAndWebDev",
+        "description": "projectsExpoValenciaText",
         "link": "https://www.expovalencia.com/",
         "images": [
-            "projects/p-ev-1.jpg",
-            "projects/p-ev-2.jpg",
-            "projects/p-ev-3.jpg"
+            "projectsImg/p-ev-1.jpg",
+            "projectsImg/p-ev-2.jpg",
+            "projectsImg/p-ev-3.jpg"
         ]
     },
     {
-        "title": "ADFruta",
-        "tags": "Desarrollo software & web",
-        "description": "Sistema de planificacion de recursos empresariales (ERP) especializado en gestionar los procesos de cosecha, almacenamiento, distribución y venta de de uvas a gran escala.",
+        "title": "projectsADFrutaName",
+        "tags": "projectsTagSoftAndWebDev",
+        "description": "projectsADFrutaText",
         "link": "",
         "images": [
-            "projects/p-ad-1.jpg"
+            "projectsImg/p-ad-1.jpg"
         ]
     },
     {
-        "title": "The Daphne Algorithm",
-        "tags": "Desarrollo software & web",
-        "description": "Es una inteligencia artificial (IA) que genera imagenes dado un texto de entrada, audio o imagen y usa de inspiración de la artista Daphne Anastassiou.",
+        "title": "projectsDaphAlgoName",
+        "tags": "projectsTagSoftAndWebDev",
+        "description": "projectsDaphAlgoText",
         "link": "",
         "images": [
-            "projects/p-alg-1.jpg"
+            "projectsImg/p-alg-1.jpg"
         ]
     },
     {
-        "title": "Análisis de siembra y cultivo de caña de azúcar",
-        "tags": "Desarrollo software",
-        "description": "Con las imágenes generadas por drone, se realizó una implementación específica mediante inteligencia artificial que recibe todos los espectros de las imágenes generadas por las cámaras del drone para análisis de siembra y cultivo de caña de azúcar, analizando una reconstrucción del espacio, con el fin de revelar defectos en la uniformidad de la siembra imperceptibles al ojo humano, y detalles de humedad que permiten al agricultor, corregir las regiones con desviación.",
+        "title": "projectsSugarCaneName",
+        "tags": "projectsTagSoftDev",
+        "description": "projectsSugarCaneText",
         "link": "",
         "images": [
-            "projects/p-cana-1.jpg"
+            "projectsImg/p-cana-1.jpg"
         ]
     },
     {
         "title": "BeeMaping",
-        "tags": "Desarrollo de software",
-        "description": "Es una app para monitorizar el Ácaro Varroa Destructor a partir del análisis del papel adherente dispuesto debajo de las colmenas con el objeto de calcular el porcentaje de infección mediante de la utilización de inteligencia artificial. Además de proporcionar un registro con fecha, ubicación, datos de diagnóstico junto a muchas otras estadísticas de interés para el apicultor.",
+        "tags": "projectsTagSoftDev",
+        "description": "projectsBeeMapingText",
         "link": "https://beemapping.com/",
         "images": [
-            "projects/p-bee-1.jpg"
+            "projectsImg/p-bee-1.jpg"
         ]
     },
     {
-        "title": "Neural-Knows",
-        "tags": "Diseño gráfico, Desarrollo software & web",
-        "description": "Aplicacion Android, iOS, weareble y web para monitorear el estado animico y psicologico de los usuarios, incluye un chatbot, panel administrativo y contenido psicoterapeutico, elaborado con Flutter y Firebase.",
+        "title": "projectsNeuralKnowsName",
+        "tags": "projectsTagGraphDesSoftAndWebDev",
+        "description": "projectsNeuralKnowsText",
         "link": "",
         "images": [
-            "projects/p-nk-2.jpg",
-            "projects/p-nk-1.png"
+            "projectsImg/p-nk-2.jpg",
+            "projectsImg/p-nk-1.png"
         ]
     },
     {
-        "title": "Sportly",
-        "tags": "Diseño gráfico & Desarrollo web",
-        "description": "Aplicacion Android y iOS dirigida a que los usuarios esten en contacto con sus canchas y espacios deportivos preferidos, equipos y compañeros.",
+        "title": "projectsSportlyName",
+        "tags": "projectsTagGraphDesAndWebDev",
+        "description": "projectsSportlyText",
         "link": "",
         "images": [
-            "projects/p-sport-2.jpg",
-            "projects/p-sport-1.png"
+            "projectsImg/p-sport-2.jpg",
+            "projectsImg/p-sport-1.png"
         ]
     },
     {
-        "title": "El tesoro olvidado",
-        "tags": "Diseño gráfico",
-        "description": "Edición y maquetación del libro titulado 'El tesoro olvidado'",
+        "title": "projectsElTesoroName",
+        "tags": "projectsTagGraphDes",
+        "description": "projectsElTesoroText",
         "link": "",
         "images": [
-            "projects/p-eto-1.png"
+            "projectsImg/p-eto-1.png"
         ]
     },
     {
-        "title": "Checkcito",
-        "tags": "Desarrollo software & web",
-        "description": "Aplicación web que incluye e-commerce, autentificación y dashboard administrativo, que se abre paso a convertirse en un CMS.",
+        "title": "projectsCheckcitoName",
+        "tags": "projectsTagSoftAndWebDev",
+        "description": "projectsCheckcitoText",
         "link": "",
         "images": [
-            "projects/p-ch-1.jpg"
+            "projectsImg/p-ch-1.jpg"
         ]
     },
     {
-        "title": "Guanaco",
-        "tags": "Desarrollo web",
-        "description": "Dashboard administrativo y e-commerce con pasarela de pago.",
+        "title": "projectsGuanacoName",
+        "tags": "projectsTagWebDev",
+        "description": "projectsGuanacoText",
         "link": "",
         "images": [
-            "projects/p-gu-1.jpg"
+            "projectsImg/p-gu-1.jpg"
         ]
     },
     {
-        "title": "Fruitsnack",
-        "tags": "Desarrollo web",
-        "description": "Dashboard administrativo y e-commerce con pasarela de pago.",
+        "title": "projectsFruitsnackName",
+        "tags": "projectsTagWebDev",
+        "description": "projectsFruitsnackText",
         "link": "",
         "images": [
-            "projects/p-fr-1.jpg"
+            "projectsImg/p-fr-1.jpg"
         ]
     },
     {
-        "title": "CIA Consulting Group",
-        "tags": "Desarrollo web",
-        "description": "Landing page con distintas secciones y un blog integrado.",
+        "title": "projectsCIAName",
+        "tags": "projectsTagWebDev",
+        "description": "projectsCIAText",
         "link": "https://www.ciaconsultingroup.com/",
         "images": [
-            "projects/p-cia-0.jpg",
-            "projects/p-cia-1.png",
-            "projects/p-cia-2.png",
-            "projects/p-cia-3.png"
+            "projectsImg/p-cia-0.jpg",
+            "projectsImg/p-cia-1.png",
+            "projectsImg/p-cia-2.png",
+            "projectsImg/p-cia-3.png"
         ]
     },
     {
-        "title": "ScaleMan",
-        "tags": "Desarrollo de software",
-        "description": "ScaleMan. Portal de informes en línea de BSA con sede en Noruega para los cuales se desarrollo una plataforma de generacion de informes petroquimicos de yacimientos y pozos petroleros de todo el mundo.",
+        "title": "projectsScaleManName",
+        "tags": "projectsTagSoftDev",
+        "description": "projectsScaleManText",
         "link": "https://www.scaleprotection.com/",
         "images": [
-            "projects/p-sm-1.jpg"
+            "projectsImg/p-sm-1.jpg"
         ]
     },
     {
-        "title": "IXIM Software FAO México",
-        "tags": "Desarrollo de software",
-        "description": "Es un software desarrollado en dos etapas distintas, la primera basada en el computo en la nube de los datos generados por las estaciones meteorológicas en México, datos usados para crear transformaciones y modelos predictivos para su posterior análisis y visualización. Mediante la segunda etapa del desarrollo el cual consiste en el software desktop IXIM, el cual permite a los científicos visualizar y aplicar distintos algoritmos para la predicción del multirriesgo de siembra a lo largo y ancho del país de México.CIACONSULTINGGROUP",
+        "title": "projectsIXIMName",
+        "tags": "projectsTagSoftDev",
+        "description": "projectsIXIMText",
         "link": "https://www.fao.org/home/en/",
         "images": [
-            "projects/p-ixim-1.jpg"
+            "projectsImg/p-ixim-1.jpg"
         ]
     }
 ]

@@ -3,7 +3,7 @@
         <div class="-z-10 absolute top-96 left-12 w-72 h-72 bg-TertiaryB rounded-full filter blur-3xl opacity-30 animate-blob">
         </div>
             <div class="h-full lg:flex lg:flex-col justify-center">
-                <h1 class="my-4 w-fit font-semibold 2xl:text-7xl text-5xl mr-6">
+                <h1 class="my-4 w-fit font-semibold 2xl:text-7xl text-4xl mr-6">
                     {{title}}
                 </h1>
                 <p class="my-8 lg:my-4 font-normal 2xl:text-3xl text-2xl">

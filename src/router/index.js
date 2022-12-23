@@ -6,12 +6,12 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'Nosotros',
+      name: 'pageNameNosotros',
       component: HomeView
     },
     {
       path: '/products',
-      name: 'Productos',
+      name: 'pageNameProductos',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
@@ -19,7 +19,7 @@ const router = createRouter({
     },
     {
       path: '/projects',
-      name: 'Proyectos',
+      name: 'pageNameProyectos',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
@@ -27,12 +27,18 @@ const router = createRouter({
     },
     {
       path: '/contact',
-      name: 'Contacto',
+      name: 'pageNameContacto',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/ContactsView.vue')
-    }
+    },
+    // will match everything and put it under `$route.params.pathMatch`
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'NotFound',
+      component: () => import('../views/404View.vue')
+    },
   ]
 })
 

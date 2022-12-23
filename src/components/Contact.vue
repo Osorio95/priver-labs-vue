@@ -1,22 +1,32 @@
 <template>
-    <div class="lg:col-start-1 lg:col-span-6 lg:grid lg:grid-cols-6 lg:gap-4">
-        <h6 class="lg:col-start-1 lg:col-span-full text-3xl">
-            ¿Quieres conocer más?
+    <div class="lg:col-start-1 lg:col-span-6 flex flex-col">
+        <h6 class="lg:col-start-1 lg:col-span-full text-xl">
+            {{ $t('contactTitle') }}
         </h6>
-        <h2 class="lg:col-start-1 lg:col-span-full text-4xl font-bold my-4">
-            Contáctanos
+        <h2 class="lg:col-start-1 lg:col-span-full text-5xl font-bold my-4">
+            {{ $t('contactSubTitle') }}
         </h2>
-        <div class="lg:col-start-2 lg:col-span-full text-xl mb-12">
-            <p>
-                Priver Lab te brinda la solución creativa adaptada a tus necesidades.
+        <div class="lg:col-start-2 lg:col-span-full text-xl lg:ml-12 lg:mt-12 mb-12">
+            <p v-if="variant">
+                {{ $t(contactText) }}
                 <br>
                 <br>
-                Puedes enviarnos un email a nuestra dirección <a
-                    class="text-Secondary hover:text-TertiaryB transition-all"
-                    href="mailto:grupo@priver.app">grupo@priver.app</a> o llenar el formulario disponible en el
-                siguiente enlace.
+                <a href="tel:+584126479641" class="hover:text-TertiaryA font-bold transition-color duration-150">
+                    +58 412-6479641
+                </a>
                 <br>
                 <br>
+                <span class=" font-bold">
+                    C.C Concepto La Granja, Of. 308, Naguanagua, 2005. Carabobo, Venezuela.
+                </span>
+                <br>
+                <br>
+                <a class="font-bold hover:text-TertiaryA transition-color duration-150"
+                    href="mailto:grupo@priver.app">grupo@priver.app
+                </a>
+            </p>
+            <p v-else class="self-start text-xl">
+                {{ $t(contactText) }}
             </p>
         </div>
     </div>
@@ -25,19 +35,19 @@
             class="lg:col-start-7 lg:col-span-6 lg:grid flex flex-col lg:mt-auto mt-6 text-xl">
             <div class="grid grid-cols-2 gap-4">
                 <input @input="checkName" v-model="formName" class="px-4 py-2 text-DarkA my-3 rounded-md"
-                    placeholder="Nombre" type="text" :class="{ 'shadow-md shadow-Warning': showErrorA }" name="name"
+                    :placeholder="$t('contactPlaceholderName')" type="text" :class="{ 'shadow-md shadow-Warning': showErrorA }" name="name"
                     id="name">
                 <div class="relative text-DarkA my-3">
                     <select @input="checkService" v-model="formService"
                         class="w-full appearance-none px-4 py-2 text-DarkA h-full rounded-md"
                         placeholder="Regular input" :class="{ 'shadow-md shadow-Warning': showErrorE }">
-                        <option value="" disabled selected hidden invalid>Servicio</option>
-                        <option value="Marketing Digital">Marketing Digital</option>
-                        <option value="Desarrollo de app">Desarrollo de app</option>
-                        <option value="Desarrollo web">Desarrollo web</option>
-                        <option value="Diseño gráfico">Diseño gráfico</option>
-                        <option value="Redes sociales">Redes sociales</option>
-                        <option value="Inversionista">Invierte en Priver</option>
+                        <option value="" disabled selected hidden invalid>{{ $t('contactOptService') }}</option>
+                        <option value="Marketing Digital">{{ $t('contactOptMarketing') }}</option>
+                        <option value="Desarrollo de app">{{ $t('contactAppDev') }}</option>
+                        <option value="Desarrollo web">{{ $t('contactWebDev') }}</option>
+                        <option value="Diseño gráfico">{{ $t('contactGraphicDes') }}</option>
+                        <option value="Redes sociales">{{ $t('contactSocialMedia') }}</option>
+                        <option value="Inversionista">{{ $t('contactInvestment') }}</option>
                     </select>
                     <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
                         <svg class="w-8 h-8 fill-current" viewBox="0 0 20 20">
@@ -49,21 +59,21 @@
                 </div>
             </div>
             <input @input="checkEmail" v-model="formEmail" class="px-4 py-2 text-DarkA my-3 rounded-md"
-                placeholder="E-mail" type="email" :class="{ 'shadow-md shadow-Warning': showErrorB }" name="email"
-                id="email">
+                :placeholder="$t('contactPlaceholderEmail')" type="email"
+                :class="{ 'shadow-md shadow-Warning': showErrorB }" name="email" id="email">
             <input @input="checkPhone" v-model="formPhone" class="px-4 py-2 text-DarkA my-3 rounded-md"
-                placeholder="Móvil" type="tel" :class="{ 'shadow-md shadow-Warning': showErrorC }" name="phone"
-                id="phone">
+                :placeholder="$t('contactPlaceholderPhone')" type="tel"
+                :class="{ 'shadow-md shadow-Warning': showErrorC }" name="phone" id="phone">
             <input @input="checkOrg" v-model="formOrg" class="px-4 py-2 text-DarkA my-3 rounded-md"
-                placeholder="Organización" type="text" :class="{ 'shadow-md shadow-Warning': showErrorD }"
-                name="organization" id="organization">
+                :placeholder="$t('contactPlaceholderCompany')" type="text"
+                :class="{ 'shadow-md shadow-Warning': showErrorD }" name="organization" id="organization">
             <textarea @input="checkText" v-model="formText" class="px-4 py-2 text-DarkA my-3 rounded-md"
-                placeholder="Descripción del proyecto" :class="{ 'shadow-md shadow-Warning': showErrorE }" type="text"
-                rows="4" name="text" id="text"></textarea>
+                :placeholder="$t('contactPlaceholderDescription')" :class="{ 'shadow-md shadow-Warning': showErrorE }"
+                type="text" rows="4" name="text" id="text"></textarea>
             <div class="mt-3">
                 <button @click="verification" type="submit"
                     class="lg:w-fit w-full px-6 py-2 text-center rounded-md bg-Secondary text-2xl">
-                    Envíar
+                    {{ $t('contactSendButton') }}
                 </button>
             </div>
         </form>
@@ -71,7 +81,7 @@
             <div
                 class="bg-Secondary w-full text-center rounded-lg p-6 self-center place-self-center justify-self-center self">
                 <h3>
-                    Estaremos en contacto contigo muy pronto.
+                    {{ $t('contactThankYouMsg') }}
                 </h3>
             </div>
         </div>
@@ -80,6 +90,10 @@
 
 <script>
 export default {
+    props: {
+        contactText: String,
+        variant: Boolean,
+    },
     data() {
         return {
             formName: '',

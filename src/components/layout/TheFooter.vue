@@ -13,7 +13,7 @@
                                 <li v-for="(el, index) in urls" :key="index">
                                     <RouterLink class="h-fit hover:text-TertiaryA transition-colors ease-in-out"
                                         :to="el.path">
-                                        {{ el.name }}
+                                        {{ $t(el.name) }}
                                     </RouterLink>
                                 </li>
                             </ul>
@@ -57,7 +57,8 @@
             </div>
             <div class="grid grid-cols-12 lg:mt-16 mt-12">
                 <p class="col-start-2 col-span-10 text-base mt-6 text-center">
-                    Copyright &copy; {{ copyrightYear }} Grupo Priver, C.A. Todos los derechos reservados.</p>
+                    Copyright &copy; {{ copyrightYear }}
+                    Grupo Priver, C.A. {{ $t('copyrigth') }}</p>
             </div>
         </div>
     </footer>
@@ -71,7 +72,7 @@ export default {
     name: 'TheFooter',
     data() {
         return {
-            urls: router.getRoutes()
+            urls: router.getRoutes().slice(0, 4)
         }
     },
     computed: {
