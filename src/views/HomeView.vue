@@ -1,7 +1,7 @@
 <template>
   <main class="relative">
     <div class="flex justify-center lg:justify-end mt-8 lg:mt-0">
-      <img class="absolute lg:w-1/2 opacity-0 lg:opacity-100 right-0 -top-10 pointer-events-none" src="main/home-1.png"
+      <img class="absolute lg:w-1/2 opacity-0 lg:opacity-100 right-0 -top-10 pointer-events-none" src="/main/home-1.png"
         alt="blob">
     </div>
     <div class="lg:mx-28 mx-6">
@@ -34,9 +34,9 @@
           </div>
         </div>
         <div class="lg:col-start-2 lg:col-end-12">
-          <AreasVue order="right" imgUrl="main/home-2.png" imgAlt="blob" title="mainDevelopmentTitle"
+          <AreasVue order="right" imgUrl="/main/home-2.png" imgAlt="blob" title="mainDevelopmentTitle"
             mainText="mainDevelopmentText" :itemList="developmentArr" />
-          <AreasVue order="left" imgUrl="main/home-3.png" imgAlt="blob" title="mainGraphicDesTitle"
+          <AreasVue order="left" imgUrl="/main/home-3.png" imgAlt="blob" title="mainGraphicDesTitle"
             mainText="mainGraphicDesText" :itemList="graphicDesignArr" />
         </div>
       </section>
